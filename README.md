@@ -1,2 +1,31 @@
 # wxapp
-这是一个Sublime的插件, 用来开发&lt;微信小程序>.
+[中文](./README-CN.MD)
+
+
+## Install
+
+- Package Control
+
+Search `wxapp` via `Package Control: Install Package`
+
+- Git
+
+git clone this repository to `Sublime Packages Path`
+
+- Zip
+
+download zip and unzip to `Sublime Packages Path`
+
+
+## Usage
+
+- shortcuts
+`alt+w`
+
+
+## Feature
+
+- Open API Documentation
+- Auto Completion
+
+
