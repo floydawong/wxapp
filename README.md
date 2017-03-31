@@ -1,5 +1,5 @@
 # wxapp
-[中文](./README-CN.MD)
+[中文](./README-CN.md)
 
 
 ## Install
