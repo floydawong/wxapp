@@ -1,6 +1,6 @@
 [
     {
-        "keys": ["alt+w"],
+        "keys": ["alt+m"],
         "command": "show_overlay",
         "args": {"overlay": "command_palette",
         "text": "wxapp -> "}

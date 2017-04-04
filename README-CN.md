@@ -4,7 +4,7 @@
 
 ## 安装
 
-- Package Control(还没提交)
+- Package Control
 
 打开命令行面板, 输入`pci`, 搜索`wxapp`
 
@@ -20,13 +20,12 @@
 ## 使用
 
 - 快捷键
-`alt+w`
-
+`alt+m`
 
 
 ## 功能
 
-- API查询(打开官网API相关页面)
+- API查询
 - 自动补全
 
 

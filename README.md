@@ -20,7 +20,7 @@ download zip and unzip to `Sublime Packages Path`
 ## Usage
 
 - shortcuts
-`alt+w`
+`alt+m`
 
 
 ## Feature
