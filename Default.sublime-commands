@@ -1,6 +1,6 @@
 [
     {
-        "caption": "wxapp -> Open Documentation",
-        "command": "open_document"
+        "caption": "wxapp -> Open API Documentation",
+        "command": "open_api_document"
     }
 ]

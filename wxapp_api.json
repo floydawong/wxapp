@@ -1,0 +1,334 @@
+{
+    "wx.addCard": {
+        "desc": "添加卡券",
+        "href": "card.html#wxaddcardobject"
+    },
+    "wx.chooseAddress": {
+        "desc": "获取用户收货地址",
+        "href": "address.html#wxchooseaddressobject"
+    },
+    "wx.chooseImage": {
+        "desc": "从相册选择图片，或者拍照",
+        "href": "media-picture.html#wxchooseimageobject"
+    },
+    "wx.chooseLocation": {
+        "desc": "打开地图选择位置",
+        "href": "location.html#wxchooselocationobject"
+    },
+    "wx.chooseVideo": {
+        "desc": "从相册选择视频，或者拍摄",
+        "href": "media-video.html"
+    },
+    "wx.clearStorage": {
+        "desc": "清理本地数据缓存",
+        "href": "data.html#wxclearstorageobject"
+    },
+    "wx.clearStorageSync": {
+        "desc": "清理本地数据缓存",
+        "href": "data.html#wxclearstoragesync"
+    },
+    "wx.closeSocket": {
+        "desc": "关闭 WebSocket 连接",
+        "href": "network-socket.html#wxclosesocket"
+    },
+    "wx.connectSocket": {
+        "desc": "创建 WebSocket 连接",
+        "href": "network-socket.html#wxconnectsocketobject"
+    },
+    "wx.createAnimation": {
+        "desc": "动画",
+        "href": "api-animation.html"
+    },
+    "wx.createContext": {
+        "desc": "创建绘图上下文",
+        "href": "canvas/create-canvas-context.html"
+    },
+    "wx.createMapContext": {
+        "desc": "地图组件控制",
+        "href": "api-map.html#wxcreatemapcontextmapid"
+    },
+    "wx.downloadFile": {
+        "desc": "下载文件",
+        "href": "network-file.html#wxdownloadfileobject"
+    },
+    "wx.drawCanvas": {
+        "desc": "绘图",
+        "href": "canvas/draw-canvas.html"
+    },
+    "wx.getBackgroundAudioPlayerState": {
+        "desc": "获取音乐播放状态",
+        "href": "media-background-audio.html#wxgetbackgroundaudioplayerstateobject"
+    },
+    "wx.getClipboardData": {
+        "desc": "获取剪贴板内容",
+        "href": "clipboard.html#wxgetclipboarddataobject"
+    },
+    "wx.getLocation": {
+        "desc": "获取当前位置",
+        "href": "location.html#wxgetlocationobject"
+    },
+    "wx.getNetworkType": {
+        "desc": "获取网络类型",
+        "href": "device.html#wxgetnetworktypeobject"
+    },
+    "wx.getSavedFileInfo": {
+        "desc": "获取已保存的文件信息",
+        "href": "file.html#wxgetsavedfileinfoobject"
+    },
+    "wx.getSavedFileList": {
+        "desc": "获取已保存的文件列表",
+        "href": "file.html#wxgetsavedfilelistobject"
+    },
+    "wx.getStorage": {
+        "desc": "获取本地数据缓存",
+        "href": "data.html#wxgetstorageobject"
+    },
+    "wx.getStorageInfo": {
+        "desc": "获取本地缓存的相关信息",
+        "href": "data.html#wxgetstorageinfoobject"
+    },
+    "wx.getStorageInfoSync": {
+        "desc": "获取本地缓存的相关信息",
+        "href": "data.html#wxgetstorageinfosync"
+    },
+    "wx.getStorageSync": {
+        "desc": "获取本地数据缓存",
+        "href": "api/data.md#wxgetstoragesynckey"
+    },
+    "wx.getSystemInfo": {
+        "desc": "获取系统信息",
+        "href": "systeminfo.html#wxgetsysteminfoobject"
+    },
+    "wx.getSystemInfoSync": {
+        "desc": "获取系统信息",
+        "href": "systeminfo.html#wxgetsysteminfosync"
+    },
+    "wx.getUserInfo": {
+        "desc": "获取用户信息",
+        "href": "open.html#wxgetuserinfoobject"
+    },
+    "wx.hideKeyboard": {
+        "desc": "隐藏键盘",
+        "href": "ui-other.md#wxhidekeyboard"
+    },
+    "wx.hideLoading": {
+        "desc": "隐藏提示框",
+        "href": "api-react.html#wxhideloading"
+    },
+    "wx.hideNavigationBarLoading": {
+        "desc": "隐藏导航条加载动画",
+        "href": "ui.html#wxhidenavigationbarloading"
+    },
+    "wx.hideToast": {
+        "desc": "隐藏提示框",
+        "href": "api-react.html#wxhidetoast"
+    },
+    "wx.login": {
+        "desc": "登录",
+        "href": "api-login.html"
+    },
+    "wx.makePhoneCall": {
+        "desc": "拨打电话",
+        "href": "phonecall.html#wxmakephonecallobject"
+    },
+    "wx.navigateBack": {
+        "desc": "退回上一个页面",
+        "href": "ui-navigate.html#wxnavigateback"
+    },
+    "wx.navigateTo": {
+        "desc": "新窗口打开页面",
+        "href": "ui-navigate.html#wxnavigatetoobject"
+    },
+    "wx.onAccelerometerChange": {
+        "desc": "监听加速度数据",
+        "href": "accelerometer.html#wxonaccelerometerchangecallback"
+    },
+    "wx.onBackgroundAudioPause": {
+        "desc": "监听音乐暂停",
+        "href": "media-background-audio.html#wxonbackgroundaudiopausecallback"
+    },
+    "wx.onBackgroundAudioPlay": {
+        "desc": "监听音乐开始播放",
+        "href": "media-background-audio.html#wxonbackgroundaudioplaycallback"
+    },
+    "wx.onBackgroundAudioStop": {
+        "desc": "监听音乐结束",
+        "href": "media-background-audio.html#wxonbackgroundaudiostopcallback"
+    },
+    "wx.onCompassChange": {
+        "desc": "监听罗盘数据",
+        "href": "compass.html#wxoncompasschangecallback"
+    },
+    "wx.onNetworkStatusChange": {
+        "desc": "监听网络状态变化",
+        "href": "device.html#wxonnetworkstatuschangecallback"
+    },
+    "wx.onSocketClose": {
+        "desc": "监听 WebSocket 关闭",
+        "href": "network-socket.html#wxonsocketclosecallback"
+    },
+    "wx.onSocketError": {
+        "desc": "监听 WebSocket 错误",
+        "href": "network-socket.html#wxonsocketerrorcallback"
+    },
+    "wx.onSocketMessage": {
+        "desc": "接受 WebSocket 消息",
+        "href": "network-socket.html#wxonsocketmessagecallback"
+    },
+    "wx.onSocketOpen": {
+        "desc": "监听 WebSocket 打开",
+        "href": "network-socket.html#wxonsocketopencallback"
+    },
+    "wx.openCard": {
+        "desc": "打开卡券",
+        "href": "card.html#wxopencardobject"
+    },
+    "wx.openDocument": {
+        "desc": "打开文件",
+        "href": "file.html#wxopendocumentobject"
+    },
+    "wx.openLocation": {
+        "desc": "打开内置地图",
+        "href": "location.html#wxopenlocationobject"
+    },
+    "wx.pauseBackgroundAudio": {
+        "desc": "暂停播放音乐",
+        "href": "media-background-audio.html#wxpausebackgroundaudio"
+    },
+    "wx.pauseVoice": {
+        "desc": "暂停播放语音",
+        "href": "media-voice.html#wxpausevoice"
+    },
+    "wx.playBackgroundAudio": {
+        "desc": "播放音乐",
+        "href": "media-background-audio.html#wxplaybackgroundaudioobject"
+    },
+    "wx.playVoice": {
+        "desc": "播放语音",
+        "href": "media-voice.html#wxplayvoice"
+    },
+    "wx.previewImage": {
+        "desc": "预览图片",
+        "href": "media-picture.html#wxpreviewimageobject"
+    },
+    "wx.redirectTo": {
+        "desc": "原窗口打开页面",
+        "href": "ui-navigate.html#wxredirecttoobject"
+    },
+    "wx.removeSavedFile": {
+        "desc": "删除已保存的文件信息",
+        "href": "file.html#wxremovesavedfileobject"
+    },
+    "wx.removeStorage": {
+        "desc": "删除本地缓存内容",
+        "href": "data.html#wxremovestorageobject"
+    },
+    "wx.removeStorageSync": {
+        "desc": "删除本地缓存内容",
+        "href": "data.html#wxremovestoragesynckey"
+    },
+    "wx.request": {
+        "desc": "发起网络请求",
+        "href": "network-request.html"
+    },
+    "wx.requestPayment": {
+        "desc": "发起微信支付",
+        "href": "api-pay.html#wxrequestpaymentobject"
+    },
+    "wx.saveFile": {
+        "desc": "保存文件",
+        "href": "file.html"
+    },
+    "wx.scanCode": {
+        "desc": "扫码",
+        "href": "scancode.html#wxscancodeobject"
+    },
+    "wx.seekBackgroundAudio": {
+        "desc": "控制音乐播放进度",
+        "href": "media-background-audio.html#wxstopbackgroundaudio"
+    },
+    "wx.sendSocketMessage": {
+        "desc": "发送 WebSocket 消息",
+        "href": "network-socket.html#wxsendsocketmessageobject"
+    },
+    "wx.setClipboardData": {
+        "desc": "设置剪贴板内容",
+        "href": "clipboard.html#wxsetclipboarddataobject"
+    },
+    "wx.setNavigationBarTitle": {
+        "desc": "设置当前页面标题",
+        "href": "ui.html#wxsetnavigationbartitleobject"
+    },
+    "wx.setStorage": {
+        "desc": "设置本地数据缓存",
+        "href": "data.html#wxsetstorageobject"
+    },
+    "wx.setStorageSync": {
+        "desc": "设置本地数据缓存",
+        "href": "data.html#wxsetstoragesynckeydata"
+    },
+    "wx.showActionSheet": {
+        "desc": "显示菜单列表",
+        "href": "api-react.html#wxshowactionsheetobject"
+    },
+    "wx.showLoading": {
+        "desc": "显示加载提示框",
+        "href": "api-react.html#wxshowloadingobject"
+    },
+    "wx.showModal": {
+        "desc": "显示模态弹窗",
+        "href": "api-react.html#wxshowmodalobject"
+    },
+    "wx.showNavigationBarLoading": {
+        "desc": "显示导航条加载动画",
+        "href": "ui.html#wxshownavigationbarloading"
+    },
+    "wx.showToast": {
+        "desc": "显示提示框",
+        "href": "api-react.html#wxshowtoastobject"
+    },
+    "wx.startAccelerometer": {
+        "desc": "开始监听加速度数据",
+        "href": "accelerometer.html#wxstartaccelerometerobject"
+    },
+    "wx.startCompass": {
+        "desc": "开始监听罗盘数据",
+        "href": "compass.html#wxstartcompassobject"
+    },
+    "wx.startRecord": {
+        "desc": "开始录音",
+        "href": "media-record.html#wxstartrecordobject"
+    },
+    "wx.stopAccelerometer": {
+        "desc": "停止监听加速度数据",
+        "href": "accelerometer.html#wxstopaccelerometerobject"
+    },
+    "wx.stopBackgroundAudio": {
+        "desc": "停止播放音乐",
+        "href": "media-background-audio.html#wxstopbackgroundaudio"
+    },
+    "wx.stopCompass": {
+        "desc": "停止监听罗盘数据",
+        "href": "compass.html#wxstopcompassobject"
+    },
+    "wx.stopPullDownRefresh": {
+        "desc": "停止下拉刷新动画",
+        "href": "ui-other.md#wxstoppulldownrefresh"
+    },
+    "wx.stopRecord": {
+        "desc": "结束录音",
+        "href": "media-record.html#wxstoprecord"
+    },
+    "wx.stopVoice": {
+        "desc": "结束播放语音",
+        "href": "media-voice.html#wxstopvoice"
+    },
+    "wx.switchTab": {
+        "desc": "切换到 tabbar 页面",
+        "href": "ui-navigate.html#wxswitchtabobject"
+    },
+    "wx.uploadFile": {
+        "desc": "上传文件",
+        "href": "network-file.html#wxuploadfileobject"
+    }
+}
