@@ -1,5 +1,12 @@
+v0.0.2
+======
+
+[dev]       爬虫, 自动获取官网API, 生成Json文件.
+[fixed]     Package Control提交失败, 换一种加载API列表的方式.
+
+
 v0.0.1
 ======
 
-[new]       Api文档查询
+[new]       API文档查询
 [new]       自动补全
