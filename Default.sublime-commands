@@ -2,5 +2,9 @@
     {
         "caption": "wxapp -> Open API Documentation",
         "command": "open_api_document"
+    },
+    {
+        "caption": "wxapp -> Open Component Documentation",
+        "command": "open_component_document"
     }
 ]

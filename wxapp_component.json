@@ -1,0 +1,94 @@
+{
+    "audio": {
+        "desc": "音频",
+        "href": "audio.html"
+    },
+    "button": {
+        "desc": "按钮",
+        "href": "button.html"
+    },
+    "canvas": {
+        "desc": "画布",
+        "href": "canvas.html"
+    },
+    "checkbox": {
+        "desc": "多项选择器",
+        "href": "checkbox.html"
+    },
+    "contact-button": {
+        "desc": "进入客服会话按钮",
+        "href": "contact-button.html"
+    },
+    "form": {
+        "desc": "表单",
+        "href": "form.html"
+    },
+    "icon": {
+        "desc": "图标",
+        "href": "icon.html"
+    },
+    "image": {
+        "desc": "图片",
+        "href": "image.html"
+    },
+    "input": {
+        "desc": "输入框",
+        "href": "input.html"
+    },
+    "label": {
+        "desc": "标签",
+        "href": "label.html"
+    },
+    "map": {
+        "desc": "地图",
+        "href": "map.html"
+    },
+    "navigator": {
+        "desc": "应用链接",
+        "href": "navigator.html"
+    },
+    "picker": {
+        "desc": "列表选择器",
+        "href": "picker.html"
+    },
+    "picker-view": {
+        "desc": "内嵌列表选择器",
+        "href": "picker-view.html"
+    },
+    "progress": {
+        "desc": "进度条",
+        "href": "progress.html"
+    },
+    "radio": {
+        "desc": "单项选择器",
+        "href": "radio.html"
+    },
+    "scroll-view": {
+        "desc": "可滚动视图容器",
+        "href": "scroll-view.html"
+    },
+    "slider": {
+        "desc": "滚动选择器",
+        "href": "slider.html"
+    },
+    "swiper": {
+        "desc": "滑块视图容器",
+        "href": "swiper.html"
+    },
+    "switch": {
+        "desc": "开关选择器",
+        "href": "switch.html"
+    },
+    "text": {
+        "desc": "文字",
+        "href": "text.html"
+    },
+    "video": {
+        "desc": "视频",
+        "href": "video.html"
+    },
+    "view": {
+        "desc": "视图容器",
+        "href": "view.html"
+    }
+}
