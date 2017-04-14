@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>]]></content>
+	<tabTrigger>wxml</tabTrigger>
+	<scope>text.wxml</scope>
+	<description>XML Processing Instruction</description>
+</snippet>

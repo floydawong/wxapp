@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Miscellaneous</string>
+	<key>scope</key>
+	<string>text.wxml</string>
+	<key>settings</key>
+	<dict>
+		<key>comment</key>
+		<string>
+		/*
+		 * Don't indent:
+		 *  &lt;?, &lt;/, &lt;!
+		 *  &lt;whatever&gt;&lt;/whatever&gt;
+		 *  &lt;whatever /&gt;
+		 *  &lt;% %&gt;
+		 *  &lt;!-- --&gt;
+		 *  &lt;%-- --%&gt;
+		 *
+		 * Do indent:
+		 *  &lt;whatever&gt;
+		 *  &lt;%
+		 *  &lt;!--
+		 *  &lt;%--
+		 *
+		 * Decrease indent for:
+		 *  &lt;/whatever&gt;
+		 *  --&gt;
+		 *  --%&gt;
+		 */
+		</string>
+		<key>decreaseIndentPattern</key>
+		<string>^\s*(&lt;/[^&gt;]+&gt;|--&gt;|--%&gt;)</string>
+		<key>highlightPairs</key>
+		<array>
+			<array>
+				<string>(</string>
+				<string>)</string>
+			</array>
+			<array>
+				<string>[</string>
+				<string>]</string>
+			</array>
+			<array>
+				<string>{</string>
+				<string>}</string>
+			</array>
+			<array>
+				<string>"</string>
+				<string>"</string>
+			</array>
+			<array>
+				<string>&lt;</string>
+				<string>&gt;</string>
+			</array>
+		</array>
+		<key>increaseIndentPattern</key>
+		<string>^\s*&lt;(([^!/?]|%)(?!.+?([/%]&gt;|&lt;/.+?&gt;))|[%!]--\s*$)</string>
+	</dict>
+</dict>
+</plist>
