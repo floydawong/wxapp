@@ -7,7 +7,7 @@ v0.0.3
 v0.0.2
 ======
 
-[dev]       爬虫, 自动获取官网API, 生成Json文件.
+[dev]       自动获取官网API
 [fixed]     Package Control提交失败, 换一种加载API列表的方式.
 
 
