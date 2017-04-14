@@ -25,7 +25,7 @@ download zip and unzip to `Sublime Packages Path`
 
 ## Feature
 
-- Open API Documentation
 - Auto Completion
-
-
+- Open API Documentation
+- Open Component Documentation
+- wxml & wxss syntax
