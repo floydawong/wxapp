@@ -1,4 +1,32 @@
 {
+    "nodesRef.boundingClientRect": {
+        "desc": "获取布局位置和尺寸",
+        "href": "wxml-nodes-info.html#nodesrefboundingclientrectcallback"
+    },
+    "nodesRef.fields": {
+        "desc": "获取任意字段",
+        "href": "wxml-nodes-info.html#nodesreffieldsfieldscallback"
+    },
+    "nodesRef.scrollOffset": {
+        "desc": "获取滚动位置",
+        "href": "wxml-nodes-info.html#nodesrefscrolloffsetcallback"
+    },
+    "selectorQuery.exec": {
+        "desc": "执行查询请求",
+        "href": "wxml-nodes-info.html#selectorqueryexeccallback"
+    },
+    "selectorQuery.select": {
+        "desc": "根据选择器选择单个节点",
+        "href": "wxml-nodes-info.html#selectorqueryselectselector"
+    },
+    "selectorQuery.selectAll": {
+        "desc": "根据选择器选择全部节点",
+        "href": "wxml-nodes-info.html#selectorqueryselectallselector"
+    },
+    "selectorQuery.selectViewport": {
+        "desc": "选择显示区域",
+        "href": "wxml-nodes-info.html#selectorqueryselectviewport"
+    },
     "wx.addCard": {
         "desc": "添加卡券",
         "href": "card.html#wxaddcardobject"
@@ -47,6 +75,10 @@
         "desc": "地图组件控制",
         "href": "api-map.html#wxcreatemapcontextmapid"
     },
+    "wx.createSelectorQuery": {
+        "desc": "创建查询请求",
+        "href": "wxml-nodes-info.html#wxcreateselectorquery"
+    },
     "wx.downloadFile": {
         "desc": "下载文件",
         "href": "network-file.html#wxdownloadfileobject"
@@ -93,7 +125,7 @@
     },
     "wx.getStorageSync": {
         "desc": "获取本地数据缓存",
-        "href": "api/data.md#wxgetstoragesynckey"
+        "href": "data.html#wxgetstoragesynckey"
     },
     "wx.getSystemInfo": {
         "desc": "获取系统信息",
@@ -106,10 +138,6 @@
     "wx.getUserInfo": {
         "desc": "获取用户信息",
         "href": "open.html#wxgetuserinfoobject"
-    },
-    "wx.hideKeyboard": {
-        "desc": "隐藏键盘",
-        "href": "ui-other.md#wxhidekeyboard"
     },
     "wx.hideLoading": {
         "desc": "隐藏提示框",
@@ -313,7 +341,7 @@
     },
     "wx.stopPullDownRefresh": {
         "desc": "停止下拉刷新动画",
-        "href": "ui-other.md#wxstoppulldownrefresh"
+        "href": "pulldown.html#wxstoppulldownrefresh"
     },
     "wx.stopRecord": {
         "desc": "结束录音",
