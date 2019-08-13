@@ -1,4 +1,12 @@
 {
+    "ad": {
+        "desc": "Banner 广告",
+        "href": "ad.html"
+    },
+    "aria-component": {
+        "desc": "## 无障碍访问",
+        "href": "aria-component.html"
+    },
     "audio": {
         "desc": "音频",
         "href": "audio.html"
@@ -7,21 +15,41 @@
         "desc": "按钮",
         "href": "button.html"
     },
+    "camera": {
+        "desc": "系统相机",
+        "href": "camera.html"
+    },
     "canvas": {
         "desc": "画布",
         "href": "canvas.html"
     },
     "checkbox": {
-        "desc": "多项选择器",
+        "desc": "多选项目",
         "href": "checkbox.html"
     },
-    "contact-button": {
-        "desc": "进入客服会话按钮",
-        "href": "contact-button.html"
+    "checkbox-group": {
+        "desc": "多项选择器，内部由多个",
+        "href": "checkbox-group.html"
+    },
+    "cover-image": {
+        "desc": "覆盖在原生组件之上的图片视图",
+        "href": "cover-image.html"
+    },
+    "cover-view": {
+        "desc": "覆盖在原生组件之上的文本视图",
+        "href": "cover-view.html"
+    },
+    "editor": {
+        "desc": "富文本编辑器，可以对图片、文字进行编辑",
+        "href": "editor.html"
     },
     "form": {
         "desc": "表单",
         "href": "form.html"
+    },
+    "functional-page-navigator": {
+        "desc": "仅在插件中有效，用于跳转到插件功能页",
+        "href": "functional-page-navigator.html"
     },
     "icon": {
         "desc": "图标",
@@ -36,52 +64,100 @@
         "href": "input.html"
     },
     "label": {
-        "desc": "标签",
+        "desc": "用来改进表单组件的可用性",
         "href": "label.html"
+    },
+    "live-player": {
+        "desc": "实时音视频播放",
+        "href": "live-player.html"
+    },
+    "live-pusher": {
+        "desc": "实时音视频录制",
+        "href": "live-pusher.html"
     },
     "map": {
         "desc": "地图",
         "href": "map.html"
     },
+    "movable-area": {
+        "desc": null,
+        "href": "movable-area.html"
+    },
+    "movable-view": {
+        "desc": "可移动的视图容器，在页面中可以拖拽滑动",
+        "href": "movable-view.html"
+    },
+    "native-component": {
+        "desc": "## 原生组件",
+        "href": "native-component.html"
+    },
     "navigator": {
-        "desc": "应用链接",
+        "desc": "页面链接",
         "href": "navigator.html"
     },
+    "official-account": {
+        "desc": "公众号关注组件",
+        "href": "official-account.html"
+    },
+    "open-data": {
+        "desc": "用于展示微信开放的数据",
+        "href": "open-data.html"
+    },
     "picker": {
-        "desc": "列表选择器",
+        "desc": "从底部弹起的滚动选择器",
         "href": "picker.html"
     },
     "picker-view": {
-        "desc": "内嵌列表选择器",
+        "desc": "嵌入页面的滚动选择器",
         "href": "picker-view.html"
+    },
+    "picker-view-column": {
+        "desc": "滚动选择器子项",
+        "href": "picker-view-column.html"
     },
     "progress": {
         "desc": "进度条",
         "href": "progress.html"
     },
     "radio": {
-        "desc": "单项选择器",
+        "desc": "单选项目",
         "href": "radio.html"
     },
+    "radio-group": {
+        "desc": "单项选择器，内部由多个 ",
+        "href": "radio-group.html"
+    },
+    "rich-text": {
+        "desc": "富文本",
+        "href": "rich-text.html"
+    },
     "scroll-view": {
-        "desc": "可滚动视图容器",
+        "desc": "可滚动视图区域",
         "href": "scroll-view.html"
     },
     "slider": {
-        "desc": "滚动选择器",
+        "desc": "滑动选择器",
         "href": "slider.html"
     },
     "swiper": {
         "desc": "滑块视图容器",
         "href": "swiper.html"
     },
+    "swiper-item": {
+        "desc": "仅可放置在",
+        "href": "swiper-item.html"
+    },
     "switch": {
         "desc": "开关选择器",
         "href": "switch.html"
     },
     "text": {
-        "desc": "文字",
+        "desc": "文本",
         "href": "text.html"
+    },
+    "textarea": {
+        "desc": "多行输入框",
+        "href": "textarea.html"
     },
     "video": {
         "desc": "视频",
@@ -90,5 +166,9 @@
     "view": {
         "desc": "视图容器",
         "href": "view.html"
+    },
+    "web-view": {
+        "desc": "承载网页的容器",
+        "href": "web-view.html"
     }
 }

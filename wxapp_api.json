@@ -1,362 +1,2190 @@
 {
-    "nodesRef.boundingClientRect": {
-        "desc": "获取布局位置和尺寸",
-        "href": "wxml-nodes-info.html#nodesrefboundingclientrectcallback"
+    "Animation.backgroundColor": {
+        "desc": "设置背景色",
+        "href": "ui/animation/Animation.backgroundColor.html"
     },
-    "nodesRef.fields": {
-        "desc": "获取任意字段",
-        "href": "wxml-nodes-info.html#nodesreffieldsfieldscallback"
+    "Animation.bottom": {
+        "desc": "设置 bottom 值",
+        "href": "ui/animation/Animation.bottom.html"
     },
-    "nodesRef.scrollOffset": {
-        "desc": "获取滚动位置",
-        "href": "wxml-nodes-info.html#nodesrefscrolloffsetcallback"
+    "Animation.export": {
+        "desc": "导出动画队列",
+        "href": "ui/animation/Animation.export.html"
     },
-    "selectorQuery.exec": {
-        "desc": "执行查询请求",
-        "href": "wxml-nodes-info.html#selectorqueryexeccallback"
+    "Animation.height": {
+        "desc": "设置高度",
+        "href": "ui/animation/Animation.height.html"
     },
-    "selectorQuery.select": {
-        "desc": "根据选择器选择单个节点",
-        "href": "wxml-nodes-info.html#selectorqueryselectselector"
+    "Animation.left": {
+        "desc": "设置 left 值",
+        "href": "ui/animation/Animation.left.html"
     },
-    "selectorQuery.selectAll": {
-        "desc": "根据选择器选择全部节点",
-        "href": "wxml-nodes-info.html#selectorqueryselectallselector"
+    "Animation.matrix": {
+        "desc": "同 ",
+        "href": "ui/animation/Animation.matrix.html"
     },
-    "selectorQuery.selectViewport": {
+    "Animation.matrix3d": {
+        "desc": "同 ",
+        "href": "ui/animation/Animation.matrix3d.html"
+    },
+    "Animation.opacity": {
+        "desc": "设置透明度",
+        "href": "ui/animation/Animation.opacity.html"
+    },
+    "Animation.right": {
+        "desc": "设置 right 值",
+        "href": "ui/animation/Animation.right.html"
+    },
+    "Animation.rotate": {
+        "desc": "从原点顺时针旋转一个角度",
+        "href": "ui/animation/Animation.rotate.html"
+    },
+    "Animation.rotate3d": {
+        "desc": "从 X 轴顺时针旋转一个角度",
+        "href": "ui/animation/Animation.rotate3d.html"
+    },
+    "Animation.rotateX": {
+        "desc": "从 X 轴顺时针旋转一个角度",
+        "href": "ui/animation/Animation.rotateX.html"
+    },
+    "Animation.rotateY": {
+        "desc": "从 Y 轴顺时针旋转一个角度",
+        "href": "ui/animation/Animation.rotateY.html"
+    },
+    "Animation.rotateZ": {
+        "desc": "从 Z 轴顺时针旋转一个角度",
+        "href": "ui/animation/Animation.rotateZ.html"
+    },
+    "Animation.scale": {
+        "desc": "缩放",
+        "href": "ui/animation/Animation.scale.html"
+    },
+    "Animation.scale3d": {
+        "desc": "缩放",
+        "href": "ui/animation/Animation.scale3d.html"
+    },
+    "Animation.scaleX": {
+        "desc": "缩放 X 轴",
+        "href": "ui/animation/Animation.scaleX.html"
+    },
+    "Animation.scaleY": {
+        "desc": "缩放 Y 轴",
+        "href": "ui/animation/Animation.scaleY.html"
+    },
+    "Animation.scaleZ": {
+        "desc": "缩放 Z 轴",
+        "href": "ui/animation/Animation.scaleZ.html"
+    },
+    "Animation.skew": {
+        "desc": "对 X、Y 轴坐标进行倾斜",
+        "href": "ui/animation/Animation.skew.html"
+    },
+    "Animation.skewX": {
+        "desc": "对 X 轴坐标进行倾斜",
+        "href": "ui/animation/Animation.skewX.html"
+    },
+    "Animation.skewY": {
+        "desc": "对 Y 轴坐标进行倾斜",
+        "href": "ui/animation/Animation.skewY.html"
+    },
+    "Animation.step": {
+        "desc": "表示一组动画完成",
+        "href": "ui/animation/Animation.step.html"
+    },
+    "Animation.top": {
+        "desc": "设置 top 值",
+        "href": "ui/animation/Animation.top.html"
+    },
+    "Animation.translate": {
+        "desc": "平移变换",
+        "href": "ui/animation/Animation.translate.html"
+    },
+    "Animation.translate3d": {
+        "desc": "对 xyz 坐标进行平移变换",
+        "href": "ui/animation/Animation.translate3d.html"
+    },
+    "Animation.translateX": {
+        "desc": "对 X 轴平移",
+        "href": "ui/animation/Animation.translateX.html"
+    },
+    "Animation.translateY": {
+        "desc": "对 Y 轴平移",
+        "href": "ui/animation/Animation.translateY.html"
+    },
+    "Animation.translateZ": {
+        "desc": "对 Z 轴平移",
+        "href": "ui/animation/Animation.translateZ.html"
+    },
+    "Animation.width": {
+        "desc": "设置宽度",
+        "href": "ui/animation/Animation.width.html"
+    },
+    "AudioContext.pause": {
+        "desc": "暂停音频",
+        "href": "media/audio/AudioContext.pause.html"
+    },
+    "AudioContext.play": {
+        "desc": "播放音频",
+        "href": "media/audio/AudioContext.play.html"
+    },
+    "AudioContext.seek": {
+        "desc": "跳转到指定位置",
+        "href": "media/audio/AudioContext.seek.html"
+    },
+    "AudioContext.setSrc": {
+        "desc": "设置音频地址",
+        "href": "media/audio/AudioContext.setSrc.html"
+    },
+    "AuthSetting": {
+        "desc": "用户授权设置信息，详情参考",
+        "href": "open-api/setting/AuthSetting.html"
+    },
+    "BackgroundAudioManager.onCanplay": {
+        "desc": "监听背景音频进入可播放状态事件",
+        "href": "media/background-audio/BackgroundAudioManager.onCanplay.html"
+    },
+    "BackgroundAudioManager.onEnded": {
+        "desc": "监听背景音频自然播放结束事件",
+        "href": "media/background-audio/BackgroundAudioManager.onEnded.html"
+    },
+    "BackgroundAudioManager.onError": {
+        "desc": "监听背景音频播放错误事件",
+        "href": "media/background-audio/BackgroundAudioManager.onError.html"
+    },
+    "BackgroundAudioManager.onNext": {
+        "desc": "监听用户在系统音乐播放面板点击下一曲事件（仅iOS）",
+        "href": "media/background-audio/BackgroundAudioManager.onNext.html"
+    },
+    "BackgroundAudioManager.onPause": {
+        "desc": "监听背景音频暂停事件",
+        "href": "media/background-audio/BackgroundAudioManager.onPause.html"
+    },
+    "BackgroundAudioManager.onPlay": {
+        "desc": "监听背景音频播放事件",
+        "href": "media/background-audio/BackgroundAudioManager.onPlay.html"
+    },
+    "BackgroundAudioManager.onPrev": {
+        "desc": "监听用户在系统音乐播放面板点击上一曲事件（仅iOS）",
+        "href": "media/background-audio/BackgroundAudioManager.onPrev.html"
+    },
+    "BackgroundAudioManager.onSeeked": {
+        "desc": "监听背景音频完成跳转操作事件",
+        "href": "media/background-audio/BackgroundAudioManager.onSeeked.html"
+    },
+    "BackgroundAudioManager.onSeeking": {
+        "desc": "监听背景音频开始跳转操作事件",
+        "href": "media/background-audio/BackgroundAudioManager.onSeeking.html"
+    },
+    "BackgroundAudioManager.onStop": {
+        "desc": "监听背景音频停止事件",
+        "href": "media/background-audio/BackgroundAudioManager.onStop.html"
+    },
+    "BackgroundAudioManager.onTimeUpdate": {
+        "desc": "监听背景音频播放进度更新事件，只有小程序在前台时会回调",
+        "href": "media/background-audio/BackgroundAudioManager.onTimeUpdate.html"
+    },
+    "BackgroundAudioManager.onWaiting": {
+        "desc": "监听音频加载中事件",
+        "href": "media/background-audio/BackgroundAudioManager.onWaiting.html"
+    },
+    "BackgroundAudioManager.pause": {
+        "desc": "暂停音乐",
+        "href": "media/background-audio/BackgroundAudioManager.pause.html"
+    },
+    "BackgroundAudioManager.play": {
+        "desc": "播放音乐",
+        "href": "media/background-audio/BackgroundAudioManager.play.html"
+    },
+    "BackgroundAudioManager.seek": {
+        "desc": "跳转到指定位置",
+        "href": "media/background-audio/BackgroundAudioManager.seek.html"
+    },
+    "BackgroundAudioManager.stop": {
+        "desc": "停止音乐",
+        "href": "media/background-audio/BackgroundAudioManager.stop.html"
+    },
+    "CameraContext.onCameraFrame": {
+        "desc": "获取 Camera 实时帧数据",
+        "href": "media/camera/CameraContext.onCameraFrame.html"
+    },
+    "CameraContext.startRecord": {
+        "desc": "开始录像",
+        "href": "media/camera/CameraContext.startRecord.html"
+    },
+    "CameraContext.stopRecord": {
+        "desc": "结束录像",
+        "href": "media/camera/CameraContext.stopRecord.html"
+    },
+    "CameraContext.takePhoto": {
+        "desc": "拍摄照片",
+        "href": "media/camera/CameraContext.takePhoto.html"
+    },
+    "CameraFrameListener.start": {
+        "desc": "开始监听帧数据",
+        "href": "media/camera/CameraFrameListener.start.html"
+    },
+    "CameraFrameListener.stop": {
+        "desc": "停止监听帧数据",
+        "href": "media/camera/CameraFrameListener.stop.html"
+    },
+    "Canvas.cancelAnimationFrame": {
+        "desc": "取消由 requestAnimationFrame 添加到计划中的动画帧请求",
+        "href": "canvas/Canvas.cancelAnimationFrame.html"
+    },
+    "Canvas.createImage": {
+        "desc": "创建一个图片对象",
+        "href": "canvas/Canvas.createImage.html"
+    },
+    "Canvas.getContext": {
+        "desc": "该方法返回 Canvas 的绘图上下文",
+        "href": "canvas/Canvas.getContext.html"
+    },
+    "Canvas.requestAnimationFrame": {
+        "desc": "在下次进行重绘时执行",
+        "href": "canvas/Canvas.requestAnimationFrame.html"
+    },
+    "CanvasContext.arc": {
+        "desc": "创建一条弧线",
+        "href": "canvas/CanvasContext.arc.html"
+    },
+    "CanvasContext.arcTo": {
+        "desc": "根据控制点和半径绘制圆弧路径",
+        "href": "canvas/CanvasContext.arcTo.html"
+    },
+    "CanvasContext.beginPath": {
+        "desc": "开始创建一个路径",
+        "href": "canvas/CanvasContext.beginPath.html"
+    },
+    "CanvasContext.bezierCurveTo": {
+        "desc": "创建三次方贝塞尔曲线路径",
+        "href": "canvas/CanvasContext.bezierCurveTo.html"
+    },
+    "CanvasContext.clearRect": {
+        "desc": "清除画布上在该矩形区域内的内容",
+        "href": "canvas/CanvasContext.clearRect.html"
+    },
+    "CanvasContext.clip": {
+        "desc": "从原始画布中剪切任意形状和尺寸",
+        "href": "canvas/CanvasContext.clip.html"
+    },
+    "CanvasContext.closePath": {
+        "desc": "关闭一个路径",
+        "href": "canvas/CanvasContext.closePath.html"
+    },
+    "CanvasContext.createCircularGradient": {
+        "desc": "创建一个圆形的渐变颜色",
+        "href": "canvas/CanvasContext.createCircularGradient.html"
+    },
+    "CanvasContext.createLinearGradient": {
+        "desc": "创建一个线性的渐变颜色",
+        "href": "canvas/CanvasContext.createLinearGradient.html"
+    },
+    "CanvasContext.createPattern": {
+        "desc": "对指定的图像创建模式的方法，可在指定的方向上重复元图像",
+        "href": "canvas/CanvasContext.createPattern.html"
+    },
+    "CanvasContext.draw": {
+        "desc": "将之前在绘图上下文中的描述（路径、变形、样式）画到 canvas 中",
+        "href": "canvas/CanvasContext.draw.html"
+    },
+    "CanvasContext.drawImage": {
+        "desc": "绘制图像到画布",
+        "href": "canvas/CanvasContext.drawImage.html"
+    },
+    "CanvasContext.fill": {
+        "desc": "对当前路径中的内容进行填充",
+        "href": "canvas/CanvasContext.fill.html"
+    },
+    "CanvasContext.fillRect": {
+        "desc": "填充一个矩形",
+        "href": "canvas/CanvasContext.fillRect.html"
+    },
+    "CanvasContext.fillText": {
+        "desc": "在画布上绘制被填充的文本",
+        "href": "canvas/CanvasContext.fillText.html"
+    },
+    "CanvasContext.lineTo": {
+        "desc": "增加一个新点，然后创建一条从上次指定点到目标点的线",
+        "href": "canvas/CanvasContext.lineTo.html"
+    },
+    "CanvasContext.measureText": {
+        "desc": "测量文本尺寸信息",
+        "href": "canvas/CanvasContext.measureText.html"
+    },
+    "CanvasContext.moveTo": {
+        "desc": "把路径移动到画布中的指定点，不创建线条",
+        "href": "canvas/CanvasContext.moveTo.html"
+    },
+    "CanvasContext.quadraticCurveTo": {
+        "desc": "创建二次贝塞尔曲线路径",
+        "href": "canvas/CanvasContext.quadraticCurveTo.html"
+    },
+    "CanvasContext.rect": {
+        "desc": "创建一个矩形路径",
+        "href": "canvas/CanvasContext.rect.html"
+    },
+    "CanvasContext.restore": {
+        "desc": "恢复之前保存的绘图上下文",
+        "href": "canvas/CanvasContext.restore.html"
+    },
+    "CanvasContext.rotate": {
+        "desc": "以原点为中心顺时针旋转当前坐标轴",
+        "href": "canvas/CanvasContext.rotate.html"
+    },
+    "CanvasContext.save": {
+        "desc": "保存绘图上下文",
+        "href": "canvas/CanvasContext.save.html"
+    },
+    "CanvasContext.scale": {
+        "desc": "在调用后，之后创建的路径其横纵坐标会被缩放",
+        "href": "canvas/CanvasContext.scale.html"
+    },
+    "CanvasContext.setFillStyle": {
+        "desc": "设置填充色",
+        "href": "canvas/CanvasContext.setFillStyle.html"
+    },
+    "CanvasContext.setFontSize": {
+        "desc": "设置字体的字号",
+        "href": "canvas/CanvasContext.setFontSize.html"
+    },
+    "CanvasContext.setGlobalAlpha": {
+        "desc": "设置全局画笔透明度",
+        "href": "canvas/CanvasContext.setGlobalAlpha.html"
+    },
+    "CanvasContext.setLineCap": {
+        "desc": "设置线条的端点样式",
+        "href": "canvas/CanvasContext.setLineCap.html"
+    },
+    "CanvasContext.setLineDash": {
+        "desc": "设置虚线样式",
+        "href": "canvas/CanvasContext.setLineDash.html"
+    },
+    "CanvasContext.setLineJoin": {
+        "desc": "设置线条的交点样式",
+        "href": "canvas/CanvasContext.setLineJoin.html"
+    },
+    "CanvasContext.setLineWidth": {
+        "desc": "设置线条的宽度",
+        "href": "canvas/CanvasContext.setLineWidth.html"
+    },
+    "CanvasContext.setMiterLimit": {
+        "desc": "设置最大斜接长度",
+        "href": "canvas/CanvasContext.setMiterLimit.html"
+    },
+    "CanvasContext.setShadow": {
+        "desc": "设定阴影样式",
+        "href": "canvas/CanvasContext.setShadow.html"
+    },
+    "CanvasContext.setStrokeStyle": {
+        "desc": "设置描边颜色",
+        "href": "canvas/CanvasContext.setStrokeStyle.html"
+    },
+    "CanvasContext.setTextAlign": {
+        "desc": "设置文字的对齐",
+        "href": "canvas/CanvasContext.setTextAlign.html"
+    },
+    "CanvasContext.setTextBaseline": {
+        "desc": "设置文字的竖直对齐",
+        "href": "canvas/CanvasContext.setTextBaseline.html"
+    },
+    "CanvasContext.setTransform": {
+        "desc": "使用矩阵重新设置（覆盖）当前变换的方法",
+        "href": "canvas/CanvasContext.setTransform.html"
+    },
+    "CanvasContext.stroke": {
+        "desc": "画出当前路径的边框",
+        "href": "canvas/CanvasContext.stroke.html"
+    },
+    "CanvasContext.strokeRect": {
+        "desc": "画一个矩形(非填充)",
+        "href": "canvas/CanvasContext.strokeRect.html"
+    },
+    "CanvasContext.strokeText": {
+        "desc": "给定的 (x, y) 位置绘制文本描边的方法",
+        "href": "canvas/CanvasContext.strokeText.html"
+    },
+    "CanvasContext.transform": {
+        "desc": "使用矩阵多次叠加当前变换的方法",
+        "href": "canvas/CanvasContext.transform.html"
+    },
+    "CanvasContext.translate": {
+        "desc": "对当前坐标系的原点 (0, 0) 进行变换",
+        "href": "canvas/CanvasContext.translate.html"
+    },
+    "CanvasGradient.addColorStop": {
+        "desc": "添加颜色的渐变点",
+        "href": "canvas/CanvasGradient.addColorStop.html"
+    },
+    "Color": {
+        "desc": "颜色",
+        "href": "canvas/Color.html"
+    },
+    "DownloadTask.abort": {
+        "desc": "中断下载任务",
+        "href": "network/download/DownloadTask.abort.html"
+    },
+    "DownloadTask.offHeadersReceived": {
+        "desc": "取消监听 HTTP Response Header 事件",
+        "href": "network/download/DownloadTask.offHeadersReceived.html"
+    },
+    "DownloadTask.offProgressUpdate": {
+        "desc": "取消监听下载进度变化事件",
+        "href": "network/download/DownloadTask.offProgressUpdate.html"
+    },
+    "DownloadTask.onHeadersReceived": {
+        "desc": "监听 HTTP Response Header 事件",
+        "href": "network/download/DownloadTask.onHeadersReceived.html"
+    },
+    "DownloadTask.onProgressUpdate": {
+        "desc": "监听下载进度变化事件",
+        "href": "network/download/DownloadTask.onProgressUpdate.html"
+    },
+    "EditorContext.clear": {
+        "desc": "清空编辑器内容",
+        "href": "media/editor/EditorContext.clear.html"
+    },
+    "EditorContext.format": {
+        "desc": "修改样式",
+        "href": "media/editor/EditorContext.format.html"
+    },
+    "EditorContext.getContents": {
+        "desc": "获取编辑器内容",
+        "href": "media/editor/EditorContext.getContents.html"
+    },
+    "EditorContext.insertDivider": {
+        "desc": "插入分割线",
+        "href": "media/editor/EditorContext.insertDivider.html"
+    },
+    "EditorContext.insertImage": {
+        "desc": "插入图片",
+        "href": "media/editor/EditorContext.insertImage.html"
+    },
+    "EditorContext.insertText": {
+        "desc": "覆盖当前选区，设置一段文本",
+        "href": "media/editor/EditorContext.insertText.html"
+    },
+    "EditorContext.redo": {
+        "desc": "恢复",
+        "href": "media/editor/EditorContext.redo.html"
+    },
+    "EditorContext.removeFormat": {
+        "desc": "清除当前选区的样式",
+        "href": "media/editor/EditorContext.removeFormat.html"
+    },
+    "EditorContext.setContents": {
+        "desc": "初始化编辑器内容，hmlt和delta同时存在时仅delta生效",
+        "href": "media/editor/EditorContext.setContents.html"
+    },
+    "EditorContext.undo": {
+        "desc": "撤销",
+        "href": "media/editor/EditorContext.undo.html"
+    },
+    "FileSystemManager.access": {
+        "desc": "判断文件/目录是否存在",
+        "href": "file/FileSystemManager.access.html"
+    },
+    "FileSystemManager.accessSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.accessSync.html"
+    },
+    "FileSystemManager.appendFile": {
+        "desc": "在文件结尾追加内容",
+        "href": "file/FileSystemManager.appendFile.html"
+    },
+    "FileSystemManager.appendFileSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.appendFileSync.html"
+    },
+    "FileSystemManager.copyFile": {
+        "desc": "复制文件",
+        "href": "file/FileSystemManager.copyFile.html"
+    },
+    "FileSystemManager.copyFileSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.copyFileSync.html"
+    },
+    "FileSystemManager.getFileInfo": {
+        "desc": "获取该小程序下的 本地临时文件 或 本地缓存文件 信息",
+        "href": "file/FileSystemManager.getFileInfo.html"
+    },
+    "FileSystemManager.getSavedFileList": {
+        "desc": "获取该小程序下已保存的本地缓存文件列表",
+        "href": "file/FileSystemManager.getSavedFileList.html"
+    },
+    "FileSystemManager.mkdir": {
+        "desc": "创建目录",
+        "href": "file/FileSystemManager.mkdir.html"
+    },
+    "FileSystemManager.mkdirSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.mkdirSync.html"
+    },
+    "FileSystemManager.readFile": {
+        "desc": "读取本地文件内容",
+        "href": "file/FileSystemManager.readFile.html"
+    },
+    "FileSystemManager.readFileSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.readFileSync.html"
+    },
+    "FileSystemManager.readdir": {
+        "desc": "读取目录内文件列表",
+        "href": "file/FileSystemManager.readdir.html"
+    },
+    "FileSystemManager.readdirSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.readdirSync.html"
+    },
+    "FileSystemManager.removeSavedFile": {
+        "desc": "删除该小程序下已保存的本地缓存文件",
+        "href": "file/FileSystemManager.removeSavedFile.html"
+    },
+    "FileSystemManager.rename": {
+        "desc": "重命名文件",
+        "href": "file/FileSystemManager.rename.html"
+    },
+    "FileSystemManager.renameSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.renameSync.html"
+    },
+    "FileSystemManager.rmdir": {
+        "desc": "删除目录",
+        "href": "file/FileSystemManager.rmdir.html"
+    },
+    "FileSystemManager.rmdirSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.rmdirSync.html"
+    },
+    "FileSystemManager.saveFile": {
+        "desc": "保存临时文件到本地",
+        "href": "file/FileSystemManager.saveFile.html"
+    },
+    "FileSystemManager.saveFileSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.saveFileSync.html"
+    },
+    "FileSystemManager.stat": {
+        "desc": "获取文件 Stats 对象",
+        "href": "file/FileSystemManager.stat.html"
+    },
+    "FileSystemManager.statSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.statSync.html"
+    },
+    "FileSystemManager.unlink": {
+        "desc": "删除文件",
+        "href": "file/FileSystemManager.unlink.html"
+    },
+    "FileSystemManager.unlinkSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.unlinkSync.html"
+    },
+    "FileSystemManager.unzip": {
+        "desc": "解压文件",
+        "href": "file/FileSystemManager.unzip.html"
+    },
+    "FileSystemManager.writeFile": {
+        "desc": "写文件",
+        "href": "file/FileSystemManager.writeFile.html"
+    },
+    "FileSystemManager.writeFileSync": {
+        "desc": null,
+        "href": "file/FileSystemManager.writeFileSync.html"
+    },
+    "IBeaconInfo": {
+        "desc": null,
+        "href": "device/ibeacon/IBeaconInfo.html"
+    },
+    "Image": {
+        "desc": "图片对象",
+        "href": "canvas/Image.html"
+    },
+    "InnerAudioContext.destroy": {
+        "desc": "销毁当前实例",
+        "href": "media/audio/InnerAudioContext.destroy.html"
+    },
+    "InnerAudioContext.offCanplay": {
+        "desc": "取消监听音频进入可以播放状态的事件",
+        "href": "media/audio/InnerAudioContext.offCanplay.html"
+    },
+    "InnerAudioContext.offEnded": {
+        "desc": "取消监听音频自然播放至结束的事件",
+        "href": "media/audio/InnerAudioContext.offEnded.html"
+    },
+    "InnerAudioContext.offError": {
+        "desc": "取消监听音频播放错误事件",
+        "href": "media/audio/InnerAudioContext.offError.html"
+    },
+    "InnerAudioContext.offPause": {
+        "desc": "取消监听音频暂停事件",
+        "href": "media/audio/InnerAudioContext.offPause.html"
+    },
+    "InnerAudioContext.offPlay": {
+        "desc": "取消监听音频播放事件",
+        "href": "media/audio/InnerAudioContext.offPlay.html"
+    },
+    "InnerAudioContext.offSeeked": {
+        "desc": "取消监听音频完成跳转操作的事件",
+        "href": "media/audio/InnerAudioContext.offSeeked.html"
+    },
+    "InnerAudioContext.offSeeking": {
+        "desc": "取消监听音频进行跳转操作的事件",
+        "href": "media/audio/InnerAudioContext.offSeeking.html"
+    },
+    "InnerAudioContext.offStop": {
+        "desc": "取消监听音频停止事件",
+        "href": "media/audio/InnerAudioContext.offStop.html"
+    },
+    "InnerAudioContext.offTimeUpdate": {
+        "desc": "取消监听音频播放进度更新事件",
+        "href": "media/audio/InnerAudioContext.offTimeUpdate.html"
+    },
+    "InnerAudioContext.offWaiting": {
+        "desc": "取消监听音频加载中事件",
+        "href": "media/audio/InnerAudioContext.offWaiting.html"
+    },
+    "InnerAudioContext.onCanplay": {
+        "desc": "监听音频进入可以播放状态的事件",
+        "href": "media/audio/InnerAudioContext.onCanplay.html"
+    },
+    "InnerAudioContext.onEnded": {
+        "desc": "监听音频自然播放至结束的事件",
+        "href": "media/audio/InnerAudioContext.onEnded.html"
+    },
+    "InnerAudioContext.onError": {
+        "desc": "监听音频播放错误事件",
+        "href": "media/audio/InnerAudioContext.onError.html"
+    },
+    "InnerAudioContext.onPause": {
+        "desc": "监听音频暂停事件",
+        "href": "media/audio/InnerAudioContext.onPause.html"
+    },
+    "InnerAudioContext.onPlay": {
+        "desc": "监听音频播放事件",
+        "href": "media/audio/InnerAudioContext.onPlay.html"
+    },
+    "InnerAudioContext.onSeeked": {
+        "desc": "监听音频完成跳转操作的事件",
+        "href": "media/audio/InnerAudioContext.onSeeked.html"
+    },
+    "InnerAudioContext.onSeeking": {
+        "desc": "监听音频进行跳转操作的事件",
+        "href": "media/audio/InnerAudioContext.onSeeking.html"
+    },
+    "InnerAudioContext.onStop": {
+        "desc": "监听音频停止事件",
+        "href": "media/audio/InnerAudioContext.onStop.html"
+    },
+    "InnerAudioContext.onTimeUpdate": {
+        "desc": "监听音频播放进度更新事件",
+        "href": "media/audio/InnerAudioContext.onTimeUpdate.html"
+    },
+    "InnerAudioContext.onWaiting": {
+        "desc": "监听音频加载中事件",
+        "href": "media/audio/InnerAudioContext.onWaiting.html"
+    },
+    "InnerAudioContext.pause": {
+        "desc": "暂停",
+        "href": "media/audio/InnerAudioContext.pause.html"
+    },
+    "InnerAudioContext.play": {
+        "desc": "播放",
+        "href": "media/audio/InnerAudioContext.play.html"
+    },
+    "InnerAudioContext.seek": {
+        "desc": "跳转到指定位置",
+        "href": "media/audio/InnerAudioContext.seek.html"
+    },
+    "InnerAudioContext.stop": {
+        "desc": "停止",
+        "href": "media/audio/InnerAudioContext.stop.html"
+    },
+    "IntersectionObserver.disconnect": {
+        "desc": "停止监听",
+        "href": "wxml/IntersectionObserver.disconnect.html"
+    },
+    "IntersectionObserver.observe": {
+        "desc": "指定目标节点并开始监听相交状态变化情况",
+        "href": "wxml/IntersectionObserver.observe.html"
+    },
+    "IntersectionObserver.relativeTo": {
+        "desc": "使用选择器指定一个节点，作为参照区域之一",
+        "href": "wxml/IntersectionObserver.relativeTo.html"
+    },
+    "IntersectionObserver.relativeToViewport": {
+        "desc": "指定页面显示区域作为参照区域之一",
+        "href": "wxml/IntersectionObserver.relativeToViewport.html"
+    },
+    "InterstitialAd.destroy": {
+        "desc": "销毁插屏广告实例",
+        "href": "ad/InterstitialAd.destroy.html"
+    },
+    "InterstitialAd.load": {
+        "desc": "加载插屏广告",
+        "href": "ad/InterstitialAd.load.html"
+    },
+    "InterstitialAd.offClose": {
+        "desc": "取消监听插屏广告关闭事件",
+        "href": "ad/InterstitialAd.offClose.html"
+    },
+    "InterstitialAd.offError": {
+        "desc": "取消监听插屏错误事件",
+        "href": "ad/InterstitialAd.offError.html"
+    },
+    "InterstitialAd.offLoad": {
+        "desc": "取消监听插屏广告加载事件",
+        "href": "ad/InterstitialAd.offLoad.html"
+    },
+    "InterstitialAd.onClose": {
+        "desc": "监听插屏广告关闭事件",
+        "href": "ad/InterstitialAd.onClose.html"
+    },
+    "InterstitialAd.onError": {
+        "desc": "监听插屏错误事件",
+        "href": "ad/InterstitialAd.onError.html"
+    },
+    "InterstitialAd.onLoad": {
+        "desc": "监听插屏广告加载事件",
+        "href": "ad/InterstitialAd.onLoad.html"
+    },
+    "InterstitialAd.show": {
+        "desc": "显示插屏广告",
+        "href": "ad/InterstitialAd.show.html"
+    },
+    "LivePlayerContext.exitFullScreen": {
+        "desc": "退出全屏",
+        "href": "media/live/LivePlayerContext.exitFullScreen.html"
+    },
+    "LivePlayerContext.mute": {
+        "desc": "静音",
+        "href": "media/live/LivePlayerContext.mute.html"
+    },
+    "LivePlayerContext.pause": {
+        "desc": "暂停",
+        "href": "media/live/LivePlayerContext.pause.html"
+    },
+    "LivePlayerContext.play": {
+        "desc": "播放",
+        "href": "media/live/LivePlayerContext.play.html"
+    },
+    "LivePlayerContext.requestFullScreen": {
+        "desc": "进入全屏",
+        "href": "media/live/LivePlayerContext.requestFullScreen.html"
+    },
+    "LivePlayerContext.resume": {
+        "desc": "恢复",
+        "href": "media/live/LivePlayerContext.resume.html"
+    },
+    "LivePlayerContext.snapshot": {
+        "desc": "截图",
+        "href": "media/live/LivePlayerContext.snapshot.html"
+    },
+    "LivePlayerContext.stop": {
+        "desc": "停止",
+        "href": "media/live/LivePlayerContext.stop.html"
+    },
+    "LivePusherContext.pause": {
+        "desc": "暂停推流",
+        "href": "media/live/LivePusherContext.pause.html"
+    },
+    "LivePusherContext.pauseBGM": {
+        "desc": "暂停背景音",
+        "href": "media/live/LivePusherContext.pauseBGM.html"
+    },
+    "LivePusherContext.playBGM": {
+        "desc": "播放背景音",
+        "href": "media/live/LivePusherContext.playBGM.html"
+    },
+    "LivePusherContext.resume": {
+        "desc": "恢复推流",
+        "href": "media/live/LivePusherContext.resume.html"
+    },
+    "LivePusherContext.resumeBGM": {
+        "desc": "恢复背景音",
+        "href": "media/live/LivePusherContext.resumeBGM.html"
+    },
+    "LivePusherContext.setBGMVolume": {
+        "desc": "设置背景音音量",
+        "href": "media/live/LivePusherContext.setBGMVolume.html"
+    },
+    "LivePusherContext.snapshot": {
+        "desc": "快照",
+        "href": "media/live/LivePusherContext.snapshot.html"
+    },
+    "LivePusherContext.start": {
+        "desc": "开始推流，同时开启摄像头预览",
+        "href": "media/live/LivePusherContext.start.html"
+    },
+    "LivePusherContext.startPreview": {
+        "desc": "开启摄像头预览",
+        "href": "media/live/LivePusherContext.startPreview.html"
+    },
+    "LivePusherContext.stop": {
+        "desc": "停止推流，同时停止摄像头预览",
+        "href": "media/live/LivePusherContext.stop.html"
+    },
+    "LivePusherContext.stopBGM": {
+        "desc": "停止背景音",
+        "href": "media/live/LivePusherContext.stopBGM.html"
+    },
+    "LivePusherContext.stopPreview": {
+        "desc": "关闭摄像头预览",
+        "href": "media/live/LivePusherContext.stopPreview.html"
+    },
+    "LivePusherContext.switchCamera": {
+        "desc": "切换前后摄像头",
+        "href": "media/live/LivePusherContext.switchCamera.html"
+    },
+    "LivePusherContext.toggleTorch": {
+        "desc": "切换手电筒",
+        "href": "media/live/LivePusherContext.toggleTorch.html"
+    },
+    "LogManager.debug": {
+        "desc": "写 debug 日志",
+        "href": "base/debug/LogManager.debug.html"
+    },
+    "LogManager.info": {
+        "desc": "写 info 日志",
+        "href": "base/debug/LogManager.info.html"
+    },
+    "LogManager.log": {
+        "desc": "写 log 日志",
+        "href": "base/debug/LogManager.log.html"
+    },
+    "LogManager.warn": {
+        "desc": "写 warn 日志",
+        "href": "base/debug/LogManager.warn.html"
+    },
+    "MapContext.getCenterLocation": {
+        "desc": "获取当前地图中心的经纬度",
+        "href": "media/map/MapContext.getCenterLocation.html"
+    },
+    "MapContext.getRegion": {
+        "desc": "获取当前地图的视野范围",
+        "href": "media/map/MapContext.getRegion.html"
+    },
+    "MapContext.getRotate": {
+        "desc": "获取当前地图的旋转角",
+        "href": "media/map/MapContext.getRotate.html"
+    },
+    "MapContext.getScale": {
+        "desc": "获取当前地图的缩放级别",
+        "href": "media/map/MapContext.getScale.html"
+    },
+    "MapContext.getSkew": {
+        "desc": "获取当前地图的倾斜角",
+        "href": "media/map/MapContext.getSkew.html"
+    },
+    "MapContext.includePoints": {
+        "desc": "缩放视野展示所有经纬度",
+        "href": "media/map/MapContext.includePoints.html"
+    },
+    "MapContext.moveToLocation": {
+        "desc": "将地图中心移置当前定位点，此时需设置地图组件 show-location 为true",
+        "href": "media/map/MapContext.moveToLocation.html"
+    },
+    "MapContext.translateMarker": {
+        "desc": "平移marker，带动画",
+        "href": "media/map/MapContext.translateMarker.html"
+    },
+    "NodesRef.boundingClientRect": {
+        "desc": "添加节点的布局位置的查询请求",
+        "href": "wxml/NodesRef.boundingClientRect.html"
+    },
+    "NodesRef.context": {
+        "desc": "添加节点的 Context 对象查询请求",
+        "href": "wxml/NodesRef.context.html"
+    },
+    "NodesRef.fields": {
+        "desc": "获取节点的相关信息",
+        "href": "wxml/NodesRef.fields.html"
+    },
+    "NodesRef.scrollOffset": {
+        "desc": "添加节点的滚动位置查询请求",
+        "href": "wxml/NodesRef.scrollOffset.html"
+    },
+    "OffscreenCanvas.getContext": {
+        "desc": "该方法返回 OffscreenCanvas 的绘图上下文",
+        "href": "canvas/OffscreenCanvas.getContext.html"
+    },
+    "RecorderManager.onError": {
+        "desc": "监听录音错误事件",
+        "href": "media/recorder/RecorderManager.onError.html"
+    },
+    "RecorderManager.onFrameRecorded": {
+        "desc": "监听已录制完指定帧大小的文件事件",
+        "href": "media/recorder/RecorderManager.onFrameRecorded.html"
+    },
+    "RecorderManager.onInterruptionBegin": {
+        "desc": "监听录音因为受到系统占用而被中断开始事件",
+        "href": "media/recorder/RecorderManager.onInterruptionBegin.html"
+    },
+    "RecorderManager.onInterruptionEnd": {
+        "desc": "监听录音中断结束事件",
+        "href": "media/recorder/RecorderManager.onInterruptionEnd.html"
+    },
+    "RecorderManager.onPause": {
+        "desc": "监听录音暂停事件",
+        "href": "media/recorder/RecorderManager.onPause.html"
+    },
+    "RecorderManager.onResume": {
+        "desc": "监听录音继续事件",
+        "href": "media/recorder/RecorderManager.onResume.html"
+    },
+    "RecorderManager.onStart": {
+        "desc": "监听录音开始事件",
+        "href": "media/recorder/RecorderManager.onStart.html"
+    },
+    "RecorderManager.onStop": {
+        "desc": "监听录音结束事件",
+        "href": "media/recorder/RecorderManager.onStop.html"
+    },
+    "RecorderManager.pause": {
+        "desc": "暂停录音",
+        "href": "media/recorder/RecorderManager.pause.html"
+    },
+    "RecorderManager.resume": {
+        "desc": "继续录音",
+        "href": "media/recorder/RecorderManager.resume.html"
+    },
+    "RecorderManager.start": {
+        "desc": "开始录音",
+        "href": "media/recorder/RecorderManager.start.html"
+    },
+    "RecorderManager.stop": {
+        "desc": "停止录音",
+        "href": "media/recorder/RecorderManager.stop.html"
+    },
+    "RenderingContext": {
+        "desc": "Canvas 绘图上下文",
+        "href": "canvas/RenderingContext.html"
+    },
+    "RequestTask.abort": {
+        "desc": "中断请求任务",
+        "href": "network/request/RequestTask.abort.html"
+    },
+    "RequestTask.offHeadersReceived": {
+        "desc": "取消监听 HTTP Response Header 事件",
+        "href": "network/request/RequestTask.offHeadersReceived.html"
+    },
+    "RequestTask.onHeadersReceived": {
+        "desc": "监听 HTTP Response Header 事件",
+        "href": "network/request/RequestTask.onHeadersReceived.html"
+    },
+    "RewardedVideoAd.destroy": {
+        "desc": "销毁激励视频广告实例",
+        "href": "ad/RewardedVideoAd.destroy.html"
+    },
+    "RewardedVideoAd.load": {
+        "desc": "加载激励视频广告",
+        "href": "ad/RewardedVideoAd.load.html"
+    },
+    "RewardedVideoAd.offClose": {
+        "desc": "取消监听用户点击 ",
+        "href": "ad/RewardedVideoAd.offClose.html"
+    },
+    "RewardedVideoAd.offError": {
+        "desc": "取消监听激励视频错误事件",
+        "href": "ad/RewardedVideoAd.offError.html"
+    },
+    "RewardedVideoAd.offLoad": {
+        "desc": "取消监听激励视频广告加载事件",
+        "href": "ad/RewardedVideoAd.offLoad.html"
+    },
+    "RewardedVideoAd.onClose": {
+        "desc": "监听用户点击 ",
+        "href": "ad/RewardedVideoAd.onClose.html"
+    },
+    "RewardedVideoAd.onError": {
+        "desc": "监听激励视频错误事件",
+        "href": "ad/RewardedVideoAd.onError.html"
+    },
+    "RewardedVideoAd.onLoad": {
+        "desc": "监听激励视频广告加载事件",
+        "href": "ad/RewardedVideoAd.onLoad.html"
+    },
+    "RewardedVideoAd.show": {
+        "desc": "显示激励视频广告",
+        "href": "ad/RewardedVideoAd.show.html"
+    },
+    "SelectorQuery.exec": {
+        "desc": "执行所有的请求",
+        "href": "wxml/SelectorQuery.exec.html"
+    },
+    "SelectorQuery.in": {
+        "desc": "将选择器的选取范围更改为自定义组件 ",
+        "href": "wxml/SelectorQuery.in.html"
+    },
+    "SelectorQuery.select": {
+        "desc": "在当前页面下选择第一个匹配选择器 ",
+        "href": "wxml/SelectorQuery.select.html"
+    },
+    "SelectorQuery.selectAll": {
+        "desc": "在当前页面下选择匹配选择器 selector 的所有节点",
+        "href": "wxml/SelectorQuery.selectAll.html"
+    },
+    "SelectorQuery.selectViewport": {
         "desc": "选择显示区域",
-        "href": "wxml-nodes-info.html#selectorqueryselectviewport"
+        "href": "wxml/SelectorQuery.selectViewport.html"
+    },
+    "SocketTask.close": {
+        "desc": "关闭 WebSocket 连接",
+        "href": "network/websocket/SocketTask.close.html"
+    },
+    "SocketTask.onClose": {
+        "desc": "监听 WebSocket 连接关闭事件",
+        "href": "network/websocket/SocketTask.onClose.html"
+    },
+    "SocketTask.onError": {
+        "desc": "监听 WebSocket 错误事件",
+        "href": "network/websocket/SocketTask.onError.html"
+    },
+    "SocketTask.onMessage": {
+        "desc": "监听 WebSocket 接受到服务器的消息事件",
+        "href": "network/websocket/SocketTask.onMessage.html"
+    },
+    "SocketTask.onOpen": {
+        "desc": "监听 WebSocket 连接打开事件",
+        "href": "network/websocket/SocketTask.onOpen.html"
+    },
+    "SocketTask.send": {
+        "desc": "通过 WebSocket 连接发送数据",
+        "href": "network/websocket/SocketTask.send.html"
+    },
+    "Stats.isDirectory": {
+        "desc": "判断当前文件是否一个目录",
+        "href": "file/Stats.isDirectory.html"
+    },
+    "Stats.isFile": {
+        "desc": "判断当前文件是否一个普通文件",
+        "href": "file/Stats.isFile.html"
+    },
+    "UDPSocket.bind": {
+        "desc": "绑定一个系统随机分配的可用端口",
+        "href": "network/udp/UDPSocket.bind.html"
+    },
+    "UDPSocket.close": {
+        "desc": "关闭 UDP Socket 实例，相当于销毁",
+        "href": "network/udp/UDPSocket.close.html"
+    },
+    "UDPSocket.offClose": {
+        "desc": "取消监听关闭事件",
+        "href": "network/udp/UDPSocket.offClose.html"
+    },
+    "UDPSocket.offError": {
+        "desc": "取消监听错误事件",
+        "href": "network/udp/UDPSocket.offError.html"
+    },
+    "UDPSocket.offListening": {
+        "desc": "取消监听开始监听数据包消息的事件",
+        "href": "network/udp/UDPSocket.offListening.html"
+    },
+    "UDPSocket.offMessage": {
+        "desc": "取消监听收到消息的事件",
+        "href": "network/udp/UDPSocket.offMessage.html"
+    },
+    "UDPSocket.onClose": {
+        "desc": "监听关闭事件",
+        "href": "network/udp/UDPSocket.onClose.html"
+    },
+    "UDPSocket.onError": {
+        "desc": "监听错误事件",
+        "href": "network/udp/UDPSocket.onError.html"
+    },
+    "UDPSocket.onListening": {
+        "desc": "监听开始监听数据包消息的事件",
+        "href": "network/udp/UDPSocket.onListening.html"
+    },
+    "UDPSocket.onMessage": {
+        "desc": "监听收到消息的事件",
+        "href": "network/udp/UDPSocket.onMessage.html"
+    },
+    "UDPSocket.send": {
+        "desc": "向指定的 IP 和 port 发送消息",
+        "href": "network/udp/UDPSocket.send.html"
+    },
+    "UpdateManager.applyUpdate": {
+        "desc": "强制小程序重启并使用新版本",
+        "href": "base/update/UpdateManager.applyUpdate.html"
+    },
+    "UpdateManager.onCheckForUpdate": {
+        "desc": "监听向微信后台请求检查更新结果事件",
+        "href": "base/update/UpdateManager.onCheckForUpdate.html"
+    },
+    "UpdateManager.onUpdateFailed": {
+        "desc": "监听小程序更新失败事件",
+        "href": "base/update/UpdateManager.onUpdateFailed.html"
+    },
+    "UpdateManager.onUpdateReady": {
+        "desc": "监听小程序有版本更新事件",
+        "href": "base/update/UpdateManager.onUpdateReady.html"
+    },
+    "UploadTask.abort": {
+        "desc": "中断上传任务",
+        "href": "network/upload/UploadTask.abort.html"
+    },
+    "UploadTask.offHeadersReceived": {
+        "desc": "取消监听 HTTP Response Header 事件",
+        "href": "network/upload/UploadTask.offHeadersReceived.html"
+    },
+    "UploadTask.offProgressUpdate": {
+        "desc": "取消监听上传进度变化事件",
+        "href": "network/upload/UploadTask.offProgressUpdate.html"
+    },
+    "UploadTask.onHeadersReceived": {
+        "desc": "监听 HTTP Response Header 事件",
+        "href": "network/upload/UploadTask.onHeadersReceived.html"
+    },
+    "UploadTask.onProgressUpdate": {
+        "desc": "监听上传进度变化事件",
+        "href": "network/upload/UploadTask.onProgressUpdate.html"
+    },
+    "UserInfo": {
+        "desc": "用户信息",
+        "href": "open-api/user-info/UserInfo.html"
+    },
+    "VideoContext.exitFullScreen": {
+        "desc": "退出全屏",
+        "href": "media/video/VideoContext.exitFullScreen.html"
+    },
+    "VideoContext.hideStatusBar": {
+        "desc": "隐藏状态栏，仅在iOS全屏下有效",
+        "href": "media/video/VideoContext.hideStatusBar.html"
+    },
+    "VideoContext.pause": {
+        "desc": "暂停视频",
+        "href": "media/video/VideoContext.pause.html"
+    },
+    "VideoContext.play": {
+        "desc": "播放视频",
+        "href": "media/video/VideoContext.play.html"
+    },
+    "VideoContext.playbackRate": {
+        "desc": "设置倍速播放",
+        "href": "media/video/VideoContext.playbackRate.html"
+    },
+    "VideoContext.requestFullScreen": {
+        "desc": "进入全屏",
+        "href": "media/video/VideoContext.requestFullScreen.html"
+    },
+    "VideoContext.seek": {
+        "desc": "跳转到指定位置",
+        "href": "media/video/VideoContext.seek.html"
+    },
+    "VideoContext.sendDanmu": {
+        "desc": "发送弹幕",
+        "href": "media/video/VideoContext.sendDanmu.html"
+    },
+    "VideoContext.showStatusBar": {
+        "desc": "显示状态栏，仅在iOS全屏下有效",
+        "href": "media/video/VideoContext.showStatusBar.html"
+    },
+    "VideoContext.stop": {
+        "desc": "停止视频",
+        "href": "media/video/VideoContext.stop.html"
+    },
+    "WifiInfo": {
+        "desc": "Wifi 信息",
+        "href": "device/wifi/WifiInfo.html"
+    },
+    "Worker.onMessage": {
+        "desc": "监听主线程/Worker 线程向当前线程发送的消息的事件",
+        "href": "worker/Worker.onMessage.html"
+    },
+    "Worker.postMessage": {
+        "desc": "向主线程/Worker 线程发送的消息",
+        "href": "worker/Worker.postMessage.html"
+    },
+    "Worker.terminate": {
+        "desc": "结束当前 Worker 线程",
+        "href": "worker/Worker.terminate.html"
+    },
+    "clearInterval": {
+        "desc": "取消由 setInterval 设置的定时器",
+        "href": "base/timer/clearInterval.html"
+    },
+    "clearTimeout": {
+        "desc": "取消由 setTimeout 设置的定时器",
+        "href": "base/timer/clearTimeout.html"
+    },
+    "console.debug": {
+        "desc": "向调试面板中打印 debug 日志",
+        "href": "base/debug/console.debug.html"
+    },
+    "console.error": {
+        "desc": "向调试面板中打印 error 日志",
+        "href": "base/debug/console.error.html"
+    },
+    "console.group": {
+        "desc": "在调试面板中创建一个新的分组",
+        "href": "base/debug/console.group.html"
+    },
+    "console.groupEnd": {
+        "desc": "结束由 ",
+        "href": "base/debug/console.groupEnd.html"
+    },
+    "console.info": {
+        "desc": "向调试面板中打印 info 日志",
+        "href": "base/debug/console.info.html"
+    },
+    "console.log": {
+        "desc": "向调试面板中打印 log 日志",
+        "href": "base/debug/console.log.html"
+    },
+    "console.warn": {
+        "desc": "向调试面板中打印 warn 日志",
+        "href": "base/debug/console.warn.html"
+    },
+    "setInterval": {
+        "desc": "设定一个定时器",
+        "href": "base/timer/setInterval.html"
+    },
+    "setTimeout": {
+        "desc": "设定一个定时器",
+        "href": "base/timer/setTimeout.html"
     },
     "wx.addCard": {
-        "desc": "添加卡券",
-        "href": "card.html#wxaddcardobject"
+        "desc": "批量添加卡券",
+        "href": "open-api/card/wx.addCard.html"
+    },
+    "wx.addPhoneContact": {
+        "desc": "添加手机通讯录联系人",
+        "href": "device/contact/wx.addPhoneContact.html"
+    },
+    "wx.arrayBufferToBase64": {
+        "desc": "将 ArrayBuffer 对象转成 Base64 字符串",
+        "href": "base/wx.arrayBufferToBase64.html"
+    },
+    "wx.authorize": {
+        "desc": "提前向用户发起授权请求",
+        "href": "open-api/authorize/wx.authorize.html"
+    },
+    "wx.base64ToArrayBuffer": {
+        "desc": "将 Base64 字符串转成 ArrayBuffer 对象",
+        "href": "base/wx.base64ToArrayBuffer.html"
+    },
+    "wx.canIUse": {
+        "desc": "判断小程序的API，回调，参数，组件等是否在当前版本可用",
+        "href": "base/wx.canIUse.html"
+    },
+    "wx.canvasGetImageData": {
+        "desc": "获取 canvas 区域隐含的像素数据",
+        "href": "canvas/wx.canvasGetImageData.html"
+    },
+    "wx.canvasPutImageData": {
+        "desc": "将像素数据绘制到画布",
+        "href": "canvas/wx.canvasPutImageData.html"
+    },
+    "wx.canvasToTempFilePath": {
+        "desc": "把当前画布指定区域的内容导出生成指定大小的图片",
+        "href": "canvas/wx.canvasToTempFilePath.html"
+    },
+    "wx.checkIsSoterEnrolledInDevice": {
+        "desc": "获取设备内是否录入如指纹等生物信息的接口",
+        "href": "open-api/soter/wx.checkIsSoterEnrolledInDevice.html"
+    },
+    "wx.checkIsSupportSoterAuthentication": {
+        "desc": "获取本机支持的 SOTER 生物认证方式",
+        "href": "open-api/soter/wx.checkIsSupportSoterAuthentication.html"
+    },
+    "wx.checkSession": {
+        "desc": "检查登录态是否过期",
+        "href": "open-api/login/wx.checkSession.html"
     },
     "wx.chooseAddress": {
         "desc": "获取用户收货地址",
-        "href": "address.html#wxchooseaddressobject"
+        "href": "open-api/address/wx.chooseAddress.html"
     },
     "wx.chooseImage": {
-        "desc": "从相册选择图片，或者拍照",
-        "href": "media-picture.html#wxchooseimageobject"
+        "desc": "从本地相册选择图片或使用相机拍照",
+        "href": "media/image/wx.chooseImage.html"
+    },
+    "wx.chooseInvoice": {
+        "desc": "选择用户已有的发票",
+        "href": "open-api/invoice/wx.chooseInvoice.html"
+    },
+    "wx.chooseInvoiceTitle": {
+        "desc": "选择用户的发票抬头",
+        "href": "open-api/invoice/wx.chooseInvoiceTitle.html"
     },
     "wx.chooseLocation": {
         "desc": "打开地图选择位置",
-        "href": "location.html#wxchooselocationobject"
+        "href": "location/wx.chooseLocation.html"
+    },
+    "wx.chooseMessageFile": {
+        "desc": "从客户端会话选择文件",
+        "href": "media/image/wx.chooseMessageFile.html"
     },
     "wx.chooseVideo": {
-        "desc": "从相册选择视频，或者拍摄",
-        "href": "media-video.html"
+        "desc": "拍摄视频或从手机相册中选视频",
+        "href": "media/video/wx.chooseVideo.html"
     },
     "wx.clearStorage": {
         "desc": "清理本地数据缓存",
-        "href": "data.html#wxclearstorageobject"
+        "href": "storage/wx.clearStorage.html"
     },
     "wx.clearStorageSync": {
-        "desc": "清理本地数据缓存",
-        "href": "data.html#wxclearstoragesync"
+        "desc": null,
+        "href": "storage/wx.clearStorageSync.html"
+    },
+    "wx.closeBLEConnection": {
+        "desc": "断开与低功耗蓝牙设备的连接",
+        "href": "device/bluetooth-ble/wx.closeBLEConnection.html"
+    },
+    "wx.closeBluetoothAdapter": {
+        "desc": "关闭蓝牙模块",
+        "href": "device/bluetooth/wx.closeBluetoothAdapter.html"
     },
     "wx.closeSocket": {
         "desc": "关闭 WebSocket 连接",
-        "href": "network-socket.html#wxclosesocket"
+        "href": "network/websocket/wx.closeSocket.html"
+    },
+    "wx.compressImage": {
+        "desc": "压缩图片接口，可选压缩质量",
+        "href": "media/image/wx.compressImage.html"
     },
     "wx.connectSocket": {
-        "desc": "创建 WebSocket 连接",
-        "href": "network-socket.html#wxconnectsocketobject"
+        "desc": "创建一个 WebSocket 连接",
+        "href": "network/websocket/wx.connectSocket.html"
+    },
+    "wx.connectWifi": {
+        "desc": "连接 Wi-Fi",
+        "href": "device/wifi/wx.connectWifi.html"
     },
     "wx.createAnimation": {
-        "desc": "动画",
-        "href": "api-animation.html"
+        "desc": "创建一个动画实例 ",
+        "href": "ui/animation/wx.createAnimation.html"
     },
-    "wx.createContext": {
-        "desc": "创建绘图上下文",
-        "href": "canvas/create-canvas-context.html"
+    "wx.createAudioContext": {
+        "desc": "创建 ",
+        "href": "media/audio/wx.createAudioContext.html"
+    },
+    "wx.createBLEConnection": {
+        "desc": "连接低功耗蓝牙设备",
+        "href": "device/bluetooth-ble/wx.createBLEConnection.html"
+    },
+    "wx.createCameraContext": {
+        "desc": "创建 ",
+        "href": "media/camera/wx.createCameraContext.html"
+    },
+    "wx.createCanvasContext": {
+        "desc": "创建 canvas 的绘图上下文 ",
+        "href": "canvas/wx.createCanvasContext.html"
+    },
+    "wx.createInnerAudioContext": {
+        "desc": "创建内部 ",
+        "href": "media/audio/wx.createInnerAudioContext.html"
+    },
+    "wx.createIntersectionObserver": {
+        "desc": "创建并返回一个 IntersectionObserver 对象实例",
+        "href": "wxml/wx.createIntersectionObserver.html"
+    },
+    "wx.createInterstitialAd": {
+        "desc": "创建插屏广告组件",
+        "href": "ad/wx.createInterstitialAd.html"
+    },
+    "wx.createLivePlayerContext": {
+        "desc": "创建 ",
+        "href": "media/live/wx.createLivePlayerContext.html"
+    },
+    "wx.createLivePusherContext": {
+        "desc": "创建 ",
+        "href": "media/live/wx.createLivePusherContext.html"
     },
     "wx.createMapContext": {
-        "desc": "地图组件控制",
-        "href": "api-map.html#wxcreatemapcontextmapid"
+        "desc": "创建 ",
+        "href": "media/map/wx.createMapContext.html"
+    },
+    "wx.createOffscreenCanvas": {
+        "desc": "创建离屏 canvas 实例",
+        "href": "canvas/wx.createOffscreenCanvas.html"
+    },
+    "wx.createRewardedVideoAd": {
+        "desc": "创建激励视频广告组件",
+        "href": "ad/wx.createRewardedVideoAd.html"
     },
     "wx.createSelectorQuery": {
-        "desc": "创建查询请求",
-        "href": "wxml-nodes-info.html#wxcreateselectorquery"
+        "desc": "返回一个 SelectorQuery 对象实例",
+        "href": "wxml/wx.createSelectorQuery.html"
+    },
+    "wx.createUDPSocket": {
+        "desc": "创建一个 UDP Socket 实例",
+        "href": "network/udp/wx.createUDPSocket.html"
+    },
+    "wx.createVideoContext": {
+        "desc": "创建 ",
+        "href": "media/video/wx.createVideoContext.html"
+    },
+    "wx.createWorker": {
+        "desc": "创建一个 ",
+        "href": "worker/wx.createWorker.html"
     },
     "wx.downloadFile": {
-        "desc": "下载文件",
-        "href": "network-file.html#wxdownloadfileobject"
+        "desc": "下载文件资源到本地",
+        "href": "network/download/wx.downloadFile.html"
     },
-    "wx.drawCanvas": {
-        "desc": "绘图",
-        "href": "canvas/draw-canvas.html"
+    "wx.getAccountInfoSync": {
+        "desc": "获取当前帐号信息",
+        "href": "open-api/account-info/wx.getAccountInfoSync.html"
+    },
+    "wx.getAvailableAudioSources": {
+        "desc": "获取当前支持的音频输入源",
+        "href": "media/audio/wx.getAvailableAudioSources.html"
+    },
+    "wx.getBLEDeviceCharacteristics": {
+        "desc": "获取蓝牙设备某个服务中所有特征值(characteristic)",
+        "href": "device/bluetooth-ble/wx.getBLEDeviceCharacteristics.html"
+    },
+    "wx.getBLEDeviceServices": {
+        "desc": "获取蓝牙设备所有服务(service)",
+        "href": "device/bluetooth-ble/wx.getBLEDeviceServices.html"
+    },
+    "wx.getBackgroundAudioManager": {
+        "desc": "获取",
+        "href": "media/background-audio/wx.getBackgroundAudioManager.html"
     },
     "wx.getBackgroundAudioPlayerState": {
-        "desc": "获取音乐播放状态",
-        "href": "media-background-audio.html#wxgetbackgroundaudioplayerstateobject"
+        "desc": "获取后台音乐播放状态",
+        "href": "media/background-audio/wx.getBackgroundAudioPlayerState.html"
+    },
+    "wx.getBatteryInfo": {
+        "desc": "获取设备电量",
+        "href": "device/battery/wx.getBatteryInfo.html"
+    },
+    "wx.getBatteryInfoSync": {
+        "desc": null,
+        "href": "device/battery/wx.getBatteryInfoSync.html"
+    },
+    "wx.getBeacons": {
+        "desc": "获取所有已搜索到的 iBeacon 设备",
+        "href": "device/ibeacon/wx.getBeacons.html"
+    },
+    "wx.getBluetoothAdapterState": {
+        "desc": "获取本机蓝牙适配器状态",
+        "href": "device/bluetooth/wx.getBluetoothAdapterState.html"
+    },
+    "wx.getBluetoothDevices": {
+        "desc": "获取在蓝牙模块生效期间所有已发现的蓝牙设备",
+        "href": "device/bluetooth/wx.getBluetoothDevices.html"
     },
     "wx.getClipboardData": {
-        "desc": "获取剪贴板内容",
-        "href": "clipboard.html#wxgetclipboarddataobject"
+        "desc": "获取系统剪贴板的内容",
+        "href": "device/clipboard/wx.getClipboardData.html"
+    },
+    "wx.getConnectedBluetoothDevices": {
+        "desc": "根据 uuid 获取处于已连接状态的设备",
+        "href": "device/bluetooth/wx.getConnectedBluetoothDevices.html"
+    },
+    "wx.getConnectedWifi": {
+        "desc": "获取已连接中的 Wi-Fi 信息",
+        "href": "device/wifi/wx.getConnectedWifi.html"
+    },
+    "wx.getExtConfig": {
+        "desc": "获取",
+        "href": "ext/wx.getExtConfig.html"
+    },
+    "wx.getExtConfigSync": {
+        "desc": null,
+        "href": "ext/wx.getExtConfigSync.html"
+    },
+    "wx.getFileInfo": {
+        "desc": "获取文件信息",
+        "href": "file/wx.getFileInfo.html"
+    },
+    "wx.getFileSystemManager": {
+        "desc": "获取全局唯一的文件管理器",
+        "href": "file/wx.getFileSystemManager.html"
+    },
+    "wx.getHCEState": {
+        "desc": "判断当前设备是否支持 HCE 能力",
+        "href": "device/nfc/wx.getHCEState.html"
+    },
+    "wx.getImageInfo": {
+        "desc": "获取图片信息",
+        "href": "media/image/wx.getImageInfo.html"
+    },
+    "wx.getLaunchOptionsSync": {
+        "desc": "获取小程序启动时的参数",
+        "href": "base/app/life-cycle/wx.getLaunchOptionsSync.html"
     },
     "wx.getLocation": {
-        "desc": "获取当前位置",
-        "href": "location.html#wxgetlocationobject"
+        "desc": "获取当前的地理位置、速度",
+        "href": "location/wx.getLocation.html"
+    },
+    "wx.getLogManager": {
+        "desc": "获取日志管理器对象",
+        "href": "base/debug/wx.getLogManager.html"
+    },
+    "wx.getMenuButtonBoundingClientRect": {
+        "desc": "获取菜单按钮（右上角胶囊按钮）的布局位置信息",
+        "href": "ui/menu/wx.getMenuButtonBoundingClientRect.html"
     },
     "wx.getNetworkType": {
         "desc": "获取网络类型",
-        "href": "device.html#wxgetnetworktypeobject"
+        "href": "device/network/wx.getNetworkType.html"
+    },
+    "wx.getRecorderManager": {
+        "desc": "获取",
+        "href": "media/recorder/wx.getRecorderManager.html"
     },
     "wx.getSavedFileInfo": {
-        "desc": "获取已保存的文件信息",
-        "href": "file.html#wxgetsavedfileinfoobject"
+        "desc": "获取本地文件的文件信息",
+        "href": "file/wx.getSavedFileInfo.html"
     },
     "wx.getSavedFileList": {
-        "desc": "获取已保存的文件列表",
-        "href": "file.html#wxgetsavedfilelistobject"
+        "desc": "获取该小程序下已保存的本地缓存文件列表",
+        "href": "file/wx.getSavedFileList.html"
+    },
+    "wx.getScreenBrightness": {
+        "desc": "获取屏幕亮度",
+        "href": "device/screen/wx.getScreenBrightness.html"
+    },
+    "wx.getSelectedTextRange": {
+        "desc": "在input、textarea等focus之后，获取输入框的光标位置",
+        "href": "ui/keyboard/wx.getSelectedTextRange.html"
+    },
+    "wx.getSetting": {
+        "desc": "获取用户的当前设置",
+        "href": "open-api/setting/wx.getSetting.html"
+    },
+    "wx.getShareInfo": {
+        "desc": "获取转发详细信息",
+        "href": "share/wx.getShareInfo.html"
     },
     "wx.getStorage": {
-        "desc": "获取本地数据缓存",
-        "href": "data.html#wxgetstorageobject"
+        "desc": "从本地缓存中异步获取指定 key 的内容",
+        "href": "storage/wx.getStorage.html"
     },
     "wx.getStorageInfo": {
-        "desc": "获取本地缓存的相关信息",
-        "href": "data.html#wxgetstorageinfoobject"
+        "desc": "异步获取当前storage的相关信息",
+        "href": "storage/wx.getStorageInfo.html"
     },
     "wx.getStorageInfoSync": {
-        "desc": "获取本地缓存的相关信息",
-        "href": "data.html#wxgetstorageinfosync"
+        "desc": null,
+        "href": "storage/wx.getStorageInfoSync.html"
     },
     "wx.getStorageSync": {
-        "desc": "获取本地数据缓存",
-        "href": "data.html#wxgetstoragesynckey"
+        "desc": null,
+        "href": "storage/wx.getStorageSync.html"
     },
     "wx.getSystemInfo": {
         "desc": "获取系统信息",
-        "href": "systeminfo.html#wxgetsysteminfoobject"
+        "href": "base/system/system-info/wx.getSystemInfo.html"
     },
     "wx.getSystemInfoSync": {
-        "desc": "获取系统信息",
-        "href": "systeminfo.html#wxgetsysteminfosync"
+        "desc": null,
+        "href": "base/system/system-info/wx.getSystemInfoSync.html"
+    },
+    "wx.getUpdateManager": {
+        "desc": "获取",
+        "href": "base/update/wx.getUpdateManager.html"
     },
     "wx.getUserInfo": {
         "desc": "获取用户信息",
-        "href": "open.html#wxgetuserinfoobject"
+        "href": "open-api/user-info/wx.getUserInfo.html"
+    },
+    "wx.getWeRunData": {
+        "desc": "获取用户过去三十天微信运动步数",
+        "href": "open-api/werun/wx.getWeRunData.html"
+    },
+    "wx.getWifiList": {
+        "desc": "请求获取 Wi-Fi 列表",
+        "href": "device/wifi/wx.getWifiList.html"
     },
     "wx.hideLoading": {
-        "desc": "隐藏提示框",
-        "href": "api-react.html#wxhideloading"
+        "desc": "隐藏 loading 提示框",
+        "href": "ui/interaction/wx.hideLoading.html"
     },
     "wx.hideNavigationBarLoading": {
-        "desc": "隐藏导航条加载动画",
-        "href": "ui.html#wxhidenavigationbarloading"
+        "desc": "在当前页面隐藏导航条加载动画",
+        "href": "ui/navigation-bar/wx.hideNavigationBarLoading.html"
+    },
+    "wx.hideShareMenu": {
+        "desc": "隐藏转发按钮",
+        "href": "share/wx.hideShareMenu.html"
+    },
+    "wx.hideTabBar": {
+        "desc": "隐藏 tabBar",
+        "href": "ui/tab-bar/wx.hideTabBar.html"
+    },
+    "wx.hideTabBarRedDot": {
+        "desc": "隐藏 tabBar 某一项的右上角的红点",
+        "href": "ui/tab-bar/wx.hideTabBarRedDot.html"
     },
     "wx.hideToast": {
-        "desc": "隐藏提示框",
-        "href": "api-react.html#wxhidetoast"
+        "desc": "隐藏消息提示框",
+        "href": "ui/interaction/wx.hideToast.html"
+    },
+    "wx.loadFontFace": {
+        "desc": "动态加载网络字体",
+        "href": "ui/font/wx.loadFontFace.html"
     },
     "wx.login": {
-        "desc": "登录",
-        "href": "api-login.html"
+        "desc": "调用接口获取登录凭证（code）",
+        "href": "open-api/login/wx.login.html"
     },
     "wx.makePhoneCall": {
         "desc": "拨打电话",
-        "href": "phonecall.html#wxmakephonecallobject"
+        "href": "device/phone/wx.makePhoneCall.html"
     },
     "wx.navigateBack": {
-        "desc": "退回上一个页面",
-        "href": "ui-navigate.html#wxnavigateback"
+        "desc": "关闭当前页面，返回上一页面或多级页面",
+        "href": "route/wx.navigateBack.html"
+    },
+    "wx.navigateBackMiniProgram": {
+        "desc": "返回到上一个小程序",
+        "href": "open-api/miniprogram-navigate/wx.navigateBackMiniProgram.html"
     },
     "wx.navigateTo": {
-        "desc": "新窗口打开页面",
-        "href": "ui-navigate.html#wxnavigatetoobject"
+        "desc": "保留当前页面，跳转到应用内的某个页面",
+        "href": "route/wx.navigateTo.html"
+    },
+    "wx.navigateToMiniProgram": {
+        "desc": "打开另一个小程序",
+        "href": "open-api/miniprogram-navigate/wx.navigateToMiniProgram.html"
+    },
+    "wx.nextTick": {
+        "desc": "延迟一部分操作到下一个时间片再执行",
+        "href": "ui/custom-component/wx.nextTick.html"
+    },
+    "wx.notifyBLECharacteristicValueChange": {
+        "desc": "启用低功耗蓝牙设备特征值变化时的 notify 功能，订阅特征值",
+        "href": "device/bluetooth-ble/wx.notifyBLECharacteristicValueChange.html"
+    },
+    "wx.offAppHide": {
+        "desc": "取消监听小程序切后台事件",
+        "href": "base/app/app-event/wx.offAppHide.html"
+    },
+    "wx.offAppShow": {
+        "desc": "取消监听小程序切前台事件",
+        "href": "base/app/app-event/wx.offAppShow.html"
+    },
+    "wx.offAudioInterruptionBegin": {
+        "desc": "取消监听音频因为受到系统占用而被中断开始事件",
+        "href": "base/app/app-event/wx.offAudioInterruptionBegin.html"
+    },
+    "wx.offAudioInterruptionEnd": {
+        "desc": "取消监听音频中断结束事件",
+        "href": "base/app/app-event/wx.offAudioInterruptionEnd.html"
+    },
+    "wx.offError": {
+        "desc": "取消监听小程序错误事件",
+        "href": "base/app/app-event/wx.offError.html"
+    },
+    "wx.offLocalServiceDiscoveryStop": {
+        "desc": "取消监听 mDNS 服务停止搜索的事件",
+        "href": "network/mdns/wx.offLocalServiceDiscoveryStop.html"
+    },
+    "wx.offLocalServiceFound": {
+        "desc": "取消监听 mDNS 服务发现的事件",
+        "href": "network/mdns/wx.offLocalServiceFound.html"
+    },
+    "wx.offLocalServiceLost": {
+        "desc": "取消监听 mDNS 服务离开的事件",
+        "href": "network/mdns/wx.offLocalServiceLost.html"
+    },
+    "wx.offLocalServiceResolveFail": {
+        "desc": "取消监听 mDNS 服务解析失败的事件",
+        "href": "network/mdns/wx.offLocalServiceResolveFail.html"
+    },
+    "wx.offPageNotFound": {
+        "desc": "取消监听小程序要打开的页面不存在事件",
+        "href": "base/app/app-event/wx.offPageNotFound.html"
+    },
+    "wx.offWindowResize": {
+        "desc": "取消监听窗口尺寸变化事件",
+        "href": "ui/window/wx.offWindowResize.html"
     },
     "wx.onAccelerometerChange": {
-        "desc": "监听加速度数据",
-        "href": "accelerometer.html#wxonaccelerometerchangecallback"
+        "desc": "监听加速度数据事件",
+        "href": "device/accelerometer/wx.onAccelerometerChange.html"
+    },
+    "wx.onAppHide": {
+        "desc": "监听小程序切后台事件",
+        "href": "base/app/app-event/wx.onAppHide.html"
+    },
+    "wx.onAppShow": {
+        "desc": "监听小程序切前台事件",
+        "href": "base/app/app-event/wx.onAppShow.html"
+    },
+    "wx.onAudioInterruptionBegin": {
+        "desc": "监听音频因为受到系统占用而被中断开始事件",
+        "href": "base/app/app-event/wx.onAudioInterruptionBegin.html"
+    },
+    "wx.onAudioInterruptionEnd": {
+        "desc": "监听音频中断结束事件",
+        "href": "base/app/app-event/wx.onAudioInterruptionEnd.html"
+    },
+    "wx.onBLECharacteristicValueChange": {
+        "desc": "监听低功耗蓝牙设备的特征值变化事件",
+        "href": "device/bluetooth-ble/wx.onBLECharacteristicValueChange.html"
+    },
+    "wx.onBLEConnectionStateChange": {
+        "desc": "监听低功耗蓝牙连接状态的改变事件",
+        "href": "device/bluetooth-ble/wx.onBLEConnectionStateChange.html"
     },
     "wx.onBackgroundAudioPause": {
-        "desc": "监听音乐暂停",
-        "href": "media-background-audio.html#wxonbackgroundaudiopausecallback"
+        "desc": "监听音乐暂停事件",
+        "href": "media/background-audio/wx.onBackgroundAudioPause.html"
     },
     "wx.onBackgroundAudioPlay": {
-        "desc": "监听音乐开始播放",
-        "href": "media-background-audio.html#wxonbackgroundaudioplaycallback"
+        "desc": "监听音乐播放事件",
+        "href": "media/background-audio/wx.onBackgroundAudioPlay.html"
     },
     "wx.onBackgroundAudioStop": {
-        "desc": "监听音乐结束",
-        "href": "media-background-audio.html#wxonbackgroundaudiostopcallback"
+        "desc": "监听音乐停止事件",
+        "href": "media/background-audio/wx.onBackgroundAudioStop.html"
+    },
+    "wx.onBeaconServiceChange": {
+        "desc": "监听 iBeacon 服务状态变化事件",
+        "href": "device/ibeacon/wx.onBeaconServiceChange.html"
+    },
+    "wx.onBeaconUpdate": {
+        "desc": "监听 iBeacon 设备更新事件",
+        "href": "device/ibeacon/wx.onBeaconUpdate.html"
+    },
+    "wx.onBluetoothAdapterStateChange": {
+        "desc": "监听蓝牙适配器状态变化事件",
+        "href": "device/bluetooth/wx.onBluetoothAdapterStateChange.html"
+    },
+    "wx.onBluetoothDeviceFound": {
+        "desc": "监听寻找到新设备的事件",
+        "href": "device/bluetooth/wx.onBluetoothDeviceFound.html"
     },
     "wx.onCompassChange": {
-        "desc": "监听罗盘数据",
-        "href": "compass.html#wxoncompasschangecallback"
+        "desc": "监听罗盘数据变化事件",
+        "href": "device/compass/wx.onCompassChange.html"
+    },
+    "wx.onDeviceMotionChange": {
+        "desc": "监听设备方向变化事件",
+        "href": "device/motion/wx.onDeviceMotionChange.html"
+    },
+    "wx.onError": {
+        "desc": "监听小程序错误事件",
+        "href": "base/app/app-event/wx.onError.html"
+    },
+    "wx.onGetWifiList": {
+        "desc": "监听获取到 Wi-Fi 列表数据事件",
+        "href": "device/wifi/wx.onGetWifiList.html"
+    },
+    "wx.onGyroscopeChange": {
+        "desc": "监听陀螺仪数据变化事件",
+        "href": "device/gyroscope/wx.onGyroscopeChange.html"
+    },
+    "wx.onHCEMessage": {
+        "desc": "监听接收 NFC 设备消息事件",
+        "href": "device/nfc/wx.onHCEMessage.html"
+    },
+    "wx.onKeyboardHeightChange": {
+        "desc": "监听键盘高度变化",
+        "href": "ui/keyboard/wx.onKeyboardHeightChange.html"
+    },
+    "wx.onLocalServiceDiscoveryStop": {
+        "desc": "监听 mDNS 服务停止搜索的事件",
+        "href": "network/mdns/wx.onLocalServiceDiscoveryStop.html"
+    },
+    "wx.onLocalServiceFound": {
+        "desc": "监听 mDNS 服务发现的事件",
+        "href": "network/mdns/wx.onLocalServiceFound.html"
+    },
+    "wx.onLocalServiceLost": {
+        "desc": "监听 mDNS 服务离开的事件",
+        "href": "network/mdns/wx.onLocalServiceLost.html"
+    },
+    "wx.onLocalServiceResolveFail": {
+        "desc": "监听 mDNS 服务解析失败的事件",
+        "href": "network/mdns/wx.onLocalServiceResolveFail.html"
+    },
+    "wx.onLocationChange": {
+        "desc": "监听实时地理位置变化事件，需结合 ",
+        "href": "location/wx.onLocationChange.html"
+    },
+    "wx.onMemoryWarning": {
+        "desc": "监听内存不足告警事件",
+        "href": "device/performance/wx.onMemoryWarning.html"
     },
     "wx.onNetworkStatusChange": {
-        "desc": "监听网络状态变化",
-        "href": "device.html#wxonnetworkstatuschangecallback"
+        "desc": "监听网络状态变化事件",
+        "href": "device/network/wx.onNetworkStatusChange.html"
+    },
+    "wx.onPageNotFound": {
+        "desc": "监听小程序要打开的页面不存在事件",
+        "href": "base/app/app-event/wx.onPageNotFound.html"
     },
     "wx.onSocketClose": {
-        "desc": "监听 WebSocket 关闭",
-        "href": "network-socket.html#wxonsocketclosecallback"
+        "desc": "监听 WebSocket 连接关闭事件",
+        "href": "network/websocket/wx.onSocketClose.html"
     },
     "wx.onSocketError": {
-        "desc": "监听 WebSocket 错误",
-        "href": "network-socket.html#wxonsocketerrorcallback"
+        "desc": "监听 WebSocket 错误事件",
+        "href": "network/websocket/wx.onSocketError.html"
     },
     "wx.onSocketMessage": {
-        "desc": "接受 WebSocket 消息",
-        "href": "network-socket.html#wxonsocketmessagecallback"
+        "desc": "监听 WebSocket 接受到服务器的消息事件",
+        "href": "network/websocket/wx.onSocketMessage.html"
     },
     "wx.onSocketOpen": {
-        "desc": "监听 WebSocket 打开",
-        "href": "network-socket.html#wxonsocketopencallback"
+        "desc": "监听 WebSocket 连接打开事件",
+        "href": "network/websocket/wx.onSocketOpen.html"
+    },
+    "wx.onUserCaptureScreen": {
+        "desc": "监听用户主动截屏事件",
+        "href": "device/screen/wx.onUserCaptureScreen.html"
+    },
+    "wx.onWifiConnected": {
+        "desc": "监听连接上 Wi-Fi 的事件",
+        "href": "device/wifi/wx.onWifiConnected.html"
+    },
+    "wx.onWindowResize": {
+        "desc": "监听窗口尺寸变化事件",
+        "href": "ui/window/wx.onWindowResize.html"
+    },
+    "wx.openBluetoothAdapter": {
+        "desc": "初始化蓝牙模块",
+        "href": "device/bluetooth/wx.openBluetoothAdapter.html"
     },
     "wx.openCard": {
-        "desc": "打开卡券",
-        "href": "card.html#wxopencardobject"
+        "desc": "查看微信卡包中的卡券",
+        "href": "open-api/card/wx.openCard.html"
     },
     "wx.openDocument": {
-        "desc": "打开文件",
-        "href": "file.html#wxopendocumentobject"
+        "desc": "新开页面打开文档",
+        "href": "file/wx.openDocument.html"
     },
     "wx.openLocation": {
-        "desc": "打开内置地图",
-        "href": "location.html#wxopenlocationobject"
+        "desc": "使用微信内置地图查看位置",
+        "href": "location/wx.openLocation.html"
+    },
+    "wx.openSetting": {
+        "desc": "调起客户端小程序设置界面，返回用户设置的操作结果",
+        "href": "open-api/setting/wx.openSetting.html"
+    },
+    "wx.pageScrollTo": {
+        "desc": "将页面滚动到目标位置，支持选择器和滚动距离两种方式定位",
+        "href": "ui/scroll/wx.pageScrollTo.html"
     },
     "wx.pauseBackgroundAudio": {
         "desc": "暂停播放音乐",
-        "href": "media-background-audio.html#wxpausebackgroundaudio"
+        "href": "media/background-audio/wx.pauseBackgroundAudio.html"
     },
     "wx.pauseVoice": {
-        "desc": "暂停播放语音",
-        "href": "media-voice.html#wxpausevoice"
+        "desc": "暂停正在播放的语音",
+        "href": "media/audio/wx.pauseVoice.html"
     },
     "wx.playBackgroundAudio": {
-        "desc": "播放音乐",
-        "href": "media-background-audio.html#wxplaybackgroundaudioobject"
+        "desc": "使用后台播放器播放音乐",
+        "href": "media/background-audio/wx.playBackgroundAudio.html"
     },
     "wx.playVoice": {
-        "desc": "播放语音",
-        "href": "media-voice.html#wxplayvoice"
+        "desc": "开始播放语音",
+        "href": "media/audio/wx.playVoice.html"
     },
     "wx.previewImage": {
-        "desc": "预览图片",
-        "href": "media-picture.html#wxpreviewimageobject"
+        "desc": "在新页面中全屏预览图片",
+        "href": "media/image/wx.previewImage.html"
+    },
+    "wx.reLaunch": {
+        "desc": "关闭所有页面，打开到应用内的某个页面",
+        "href": "route/wx.reLaunch.html"
+    },
+    "wx.readBLECharacteristicValue": {
+        "desc": "读取低功耗蓝牙设备的特征值的二进制数据值",
+        "href": "device/bluetooth-ble/wx.readBLECharacteristicValue.html"
     },
     "wx.redirectTo": {
-        "desc": "原窗口打开页面",
-        "href": "ui-navigate.html#wxredirecttoobject"
+        "desc": "关闭当前页面，跳转到应用内的某个页面",
+        "href": "route/wx.redirectTo.html"
     },
     "wx.removeSavedFile": {
-        "desc": "删除已保存的文件信息",
-        "href": "file.html#wxremovesavedfileobject"
+        "desc": "删除本地缓存文件",
+        "href": "file/wx.removeSavedFile.html"
     },
     "wx.removeStorage": {
-        "desc": "删除本地缓存内容",
-        "href": "data.html#wxremovestorageobject"
+        "desc": "从本地缓存中移除指定 key",
+        "href": "storage/wx.removeStorage.html"
     },
     "wx.removeStorageSync": {
-        "desc": "删除本地缓存内容",
-        "href": "data.html#wxremovestoragesynckey"
+        "desc": null,
+        "href": "storage/wx.removeStorageSync.html"
+    },
+    "wx.removeTabBarBadge": {
+        "desc": "移除 tabBar 某一项右上角的文本",
+        "href": "ui/tab-bar/wx.removeTabBarBadge.html"
+    },
+    "wx.reportAnalytics": {
+        "desc": "自定义分析数据上报接口",
+        "href": "open-api/data-analysis/wx.reportAnalytics.html"
+    },
+    "wx.reportMonitor": {
+        "desc": "自定义业务数据监控上报接口",
+        "href": "open-api/report/wx.reportMonitor.html"
     },
     "wx.request": {
-        "desc": "发起网络请求",
-        "href": "network-request.html"
+        "desc": "发起 HTTPS 网络请求",
+        "href": "network/request/wx.request.html"
     },
     "wx.requestPayment": {
         "desc": "发起微信支付",
-        "href": "api-pay.html#wxrequestpaymentobject"
+        "href": "open-api/payment/wx.requestPayment.html"
     },
     "wx.saveFile": {
-        "desc": "保存文件",
-        "href": "file.html"
+        "desc": "保存文件到本地",
+        "href": "file/wx.saveFile.html"
+    },
+    "wx.saveImageToPhotosAlbum": {
+        "desc": "保存图片到系统相册",
+        "href": "media/image/wx.saveImageToPhotosAlbum.html"
+    },
+    "wx.saveVideoToPhotosAlbum": {
+        "desc": "保存视频到系统相册",
+        "href": "media/video/wx.saveVideoToPhotosAlbum.html"
     },
     "wx.scanCode": {
-        "desc": "扫码",
-        "href": "scancode.html#wxscancodeobject"
+        "desc": "调起客户端扫码界面进行扫码",
+        "href": "device/scan/wx.scanCode.html"
     },
     "wx.seekBackgroundAudio": {
         "desc": "控制音乐播放进度",
-        "href": "media-background-audio.html#wxstopbackgroundaudio"
+        "href": "media/background-audio/wx.seekBackgroundAudio.html"
+    },
+    "wx.sendHCEMessage": {
+        "desc": "发送 NFC 消息",
+        "href": "device/nfc/wx.sendHCEMessage.html"
     },
     "wx.sendSocketMessage": {
-        "desc": "发送 WebSocket 消息",
-        "href": "network-socket.html#wxsendsocketmessageobject"
+        "desc": "通过 WebSocket 连接发送数据",
+        "href": "network/websocket/wx.sendSocketMessage.html"
+    },
+    "wx.setBackgroundColor": {
+        "desc": "动态设置窗口的背景色",
+        "href": "ui/background/wx.setBackgroundColor.html"
+    },
+    "wx.setBackgroundTextStyle": {
+        "desc": "动态设置下拉背景字体、loading 图的样式",
+        "href": "ui/background/wx.setBackgroundTextStyle.html"
     },
     "wx.setClipboardData": {
-        "desc": "设置剪贴板内容",
-        "href": "clipboard.html#wxsetclipboarddataobject"
+        "desc": "设置系统剪贴板的内容",
+        "href": "device/clipboard/wx.setClipboardData.html"
+    },
+    "wx.setEnableDebug": {
+        "desc": "设置是否打开调试开关",
+        "href": "base/debug/wx.setEnableDebug.html"
+    },
+    "wx.setInnerAudioOption": {
+        "desc": "设置 ",
+        "href": "media/audio/wx.setInnerAudioOption.html"
+    },
+    "wx.setKeepScreenOn": {
+        "desc": "设置是否保持常亮状态",
+        "href": "device/screen/wx.setKeepScreenOn.html"
+    },
+    "wx.setNavigationBarColor": {
+        "desc": "设置页面导航条颜色",
+        "href": "ui/navigation-bar/wx.setNavigationBarColor.html"
     },
     "wx.setNavigationBarTitle": {
-        "desc": "设置当前页面标题",
-        "href": "ui.html#wxsetnavigationbartitleobject"
+        "desc": "动态设置当前页面的标题",
+        "href": "ui/navigation-bar/wx.setNavigationBarTitle.html"
+    },
+    "wx.setScreenBrightness": {
+        "desc": "设置屏幕亮度",
+        "href": "device/screen/wx.setScreenBrightness.html"
     },
     "wx.setStorage": {
-        "desc": "设置本地数据缓存",
-        "href": "data.html#wxsetstorageobject"
+        "desc": "将数据存储在本地缓存中指定的 key 中",
+        "href": "storage/wx.setStorage.html"
     },
     "wx.setStorageSync": {
-        "desc": "设置本地数据缓存",
-        "href": "data.html#wxsetstoragesynckeydata"
+        "desc": null,
+        "href": "storage/wx.setStorageSync.html"
+    },
+    "wx.setTabBarBadge": {
+        "desc": "为 tabBar 某一项的右上角添加文本",
+        "href": "ui/tab-bar/wx.setTabBarBadge.html"
+    },
+    "wx.setTabBarItem": {
+        "desc": "动态设置 tabBar 某一项的内容，",
+        "href": "ui/tab-bar/wx.setTabBarItem.html"
+    },
+    "wx.setTabBarStyle": {
+        "desc": "动态设置 tabBar 的整体样式",
+        "href": "ui/tab-bar/wx.setTabBarStyle.html"
+    },
+    "wx.setTopBarText": {
+        "desc": "动态设置置顶栏文字内容",
+        "href": "ui/sticky/wx.setTopBarText.html"
+    },
+    "wx.setWifiList": {
+        "desc": "设置 ",
+        "href": "device/wifi/wx.setWifiList.html"
     },
     "wx.showActionSheet": {
-        "desc": "显示菜单列表",
-        "href": "api-react.html#wxshowactionsheetobject"
+        "desc": "显示操作菜单",
+        "href": "ui/interaction/wx.showActionSheet.html"
     },
     "wx.showLoading": {
-        "desc": "显示加载提示框",
-        "href": "api-react.html#wxshowloadingobject"
+        "desc": "显示 loading 提示框",
+        "href": "ui/interaction/wx.showLoading.html"
     },
     "wx.showModal": {
-        "desc": "显示模态弹窗",
-        "href": "api-react.html#wxshowmodalobject"
+        "desc": "显示模态对话框",
+        "href": "ui/interaction/wx.showModal.html"
     },
     "wx.showNavigationBarLoading": {
-        "desc": "显示导航条加载动画",
-        "href": "ui.html#wxshownavigationbarloading"
+        "desc": "在当前页面显示导航条加载动画",
+        "href": "ui/navigation-bar/wx.showNavigationBarLoading.html"
+    },
+    "wx.showShareMenu": {
+        "desc": "显示当前页面的转发按钮",
+        "href": "share/wx.showShareMenu.html"
+    },
+    "wx.showTabBar": {
+        "desc": "显示 tabBar",
+        "href": "ui/tab-bar/wx.showTabBar.html"
+    },
+    "wx.showTabBarRedDot": {
+        "desc": "显示 tabBar 某一项的右上角的红点",
+        "href": "ui/tab-bar/wx.showTabBarRedDot.html"
     },
     "wx.showToast": {
-        "desc": "显示提示框",
-        "href": "api-react.html#wxshowtoastobject"
+        "desc": "显示消息提示框",
+        "href": "ui/interaction/wx.showToast.html"
     },
     "wx.startAccelerometer": {
         "desc": "开始监听加速度数据",
-        "href": "accelerometer.html#wxstartaccelerometerobject"
+        "href": "device/accelerometer/wx.startAccelerometer.html"
+    },
+    "wx.startBeaconDiscovery": {
+        "desc": "开始搜索附近的 iBeacon 设备",
+        "href": "device/ibeacon/wx.startBeaconDiscovery.html"
+    },
+    "wx.startBluetoothDevicesDiscovery": {
+        "desc": "开始搜寻附近的蓝牙外围设备",
+        "href": "device/bluetooth/wx.startBluetoothDevicesDiscovery.html"
     },
     "wx.startCompass": {
         "desc": "开始监听罗盘数据",
-        "href": "compass.html#wxstartcompassobject"
+        "href": "device/compass/wx.startCompass.html"
+    },
+    "wx.startDeviceMotionListening": {
+        "desc": "开始监听设备方向的变化",
+        "href": "device/motion/wx.startDeviceMotionListening.html"
+    },
+    "wx.startGyroscope": {
+        "desc": "开始监听陀螺仪数据",
+        "href": "device/gyroscope/wx.startGyroscope.html"
+    },
+    "wx.startHCE": {
+        "desc": "初始化 NFC 模块",
+        "href": "device/nfc/wx.startHCE.html"
+    },
+    "wx.startLocalServiceDiscovery": {
+        "desc": "开始搜索局域网下的 mDNS 服务",
+        "href": "network/mdns/wx.startLocalServiceDiscovery.html"
+    },
+    "wx.startLocationUpdate": {
+        "desc": "开启小程序进入前台时接收位置消息",
+        "href": "location/wx.startLocationUpdate.html"
+    },
+    "wx.startLocationUpdateBackground": {
+        "desc": "开启小程序进入前后台时均接收位置消息，需引导用户开启",
+        "href": "location/wx.startLocationUpdateBackground.html"
+    },
+    "wx.startPullDownRefresh": {
+        "desc": "开始下拉刷新",
+        "href": "ui/pull-down-refresh/wx.startPullDownRefresh.html"
     },
     "wx.startRecord": {
         "desc": "开始录音",
-        "href": "media-record.html#wxstartrecordobject"
+        "href": "media/recorder/wx.startRecord.html"
+    },
+    "wx.startSoterAuthentication": {
+        "desc": "开始 SOTER 生物认证",
+        "href": "open-api/soter/wx.startSoterAuthentication.html"
+    },
+    "wx.startWifi": {
+        "desc": "初始化 Wi-Fi 模块",
+        "href": "device/wifi/wx.startWifi.html"
     },
     "wx.stopAccelerometer": {
         "desc": "停止监听加速度数据",
-        "href": "accelerometer.html#wxstopaccelerometerobject"
+        "href": "device/accelerometer/wx.stopAccelerometer.html"
     },
     "wx.stopBackgroundAudio": {
         "desc": "停止播放音乐",
-        "href": "media-background-audio.html#wxstopbackgroundaudio"
+        "href": "media/background-audio/wx.stopBackgroundAudio.html"
+    },
+    "wx.stopBeaconDiscovery": {
+        "desc": "停止搜索附近的 iBeacon 设备",
+        "href": "device/ibeacon/wx.stopBeaconDiscovery.html"
+    },
+    "wx.stopBluetoothDevicesDiscovery": {
+        "desc": "停止搜寻附近的蓝牙外围设备",
+        "href": "device/bluetooth/wx.stopBluetoothDevicesDiscovery.html"
     },
     "wx.stopCompass": {
         "desc": "停止监听罗盘数据",
-        "href": "compass.html#wxstopcompassobject"
+        "href": "device/compass/wx.stopCompass.html"
+    },
+    "wx.stopDeviceMotionListening": {
+        "desc": "停止监听设备方向的变化",
+        "href": "device/motion/wx.stopDeviceMotionListening.html"
+    },
+    "wx.stopGyroscope": {
+        "desc": "停止监听陀螺仪数据",
+        "href": "device/gyroscope/wx.stopGyroscope.html"
+    },
+    "wx.stopHCE": {
+        "desc": "关闭 NFC 模块",
+        "href": "device/nfc/wx.stopHCE.html"
+    },
+    "wx.stopLocalServiceDiscovery": {
+        "desc": "停止搜索 mDNS 服务",
+        "href": "network/mdns/wx.stopLocalServiceDiscovery.html"
+    },
+    "wx.stopLocationUpdate": {
+        "desc": "关闭监听实时位置变化，前后台都停止消息接收",
+        "href": "location/wx.stopLocationUpdate.html"
     },
     "wx.stopPullDownRefresh": {
-        "desc": "停止下拉刷新动画",
-        "href": "pulldown.html#wxstoppulldownrefresh"
+        "desc": "停止当前页面下拉刷新",
+        "href": "ui/pull-down-refresh/wx.stopPullDownRefresh.html"
     },
     "wx.stopRecord": {
-        "desc": "结束录音",
-        "href": "media-record.html#wxstoprecord"
+        "desc": "停止录音",
+        "href": "media/recorder/wx.stopRecord.html"
     },
     "wx.stopVoice": {
         "desc": "结束播放语音",
-        "href": "media-voice.html#wxstopvoice"
+        "href": "media/audio/wx.stopVoice.html"
+    },
+    "wx.stopWifi": {
+        "desc": "关闭 Wi-Fi 模块",
+        "href": "device/wifi/wx.stopWifi.html"
     },
     "wx.switchTab": {
-        "desc": "切换到 tabbar 页面",
-        "href": "ui-navigate.html#wxswitchtabobject"
+        "desc": "跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面",
+        "href": "route/wx.switchTab.html"
+    },
+    "wx.updateShareMenu": {
+        "desc": "更新转发属性",
+        "href": "share/wx.updateShareMenu.html"
     },
     "wx.uploadFile": {
-        "desc": "上传文件",
-        "href": "network-file.html#wxuploadfileobject"
+        "desc": "将本地资源上传到服务器",
+        "href": "network/upload/wx.uploadFile.html"
+    },
+    "wx.vibrateLong": {
+        "desc": "使手机发生较长时间的振动（400 ms)",
+        "href": "device/vibrate/wx.vibrateLong.html"
+    },
+    "wx.vibrateShort": {
+        "desc": "使手机发生较短时间的振动（15 ms）",
+        "href": "device/vibrate/wx.vibrateShort.html"
+    },
+    "wx.writeBLECharacteristicValue": {
+        "desc": "向低功耗蓝牙设备特征值中写入二进制数据",
+        "href": "device/bluetooth-ble/wx.writeBLECharacteristicValue.html"
     }
 }
